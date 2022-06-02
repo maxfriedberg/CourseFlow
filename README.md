@@ -1,3 +1,15 @@
+## Running the flask app:
+
+1) Give the executable permission:
+    ```
+    chmod +x run-courseflow.sh
+    ```
+2) Run the flask app
+    ```
+    ./run-courseflow.sh
+    ```
+
+
 # courseflow
 
 Code repository for CourseFlow project.
