@@ -1,10 +1,20 @@
 ## Running the flask app:
 
-1) Give the executable permission:
+1) Activate python environment
+    ```
+    python3 -m venv env
+    source env/bin/activate
+    ```
+    NOTE: I think on Windows it might be just 'python' instead of 'python3'
+2) Install flask
+    ```
+    pip install flask
+    ```
+3) Give the executable permission:
     ```
     chmod +x run-courseflow.sh
     ```
-2) Run the flask app
+4) Run the flask app
     ```
     ./run-courseflow.sh
     ```
