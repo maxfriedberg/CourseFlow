@@ -11,14 +11,14 @@ def show_index():
             "Intelligent Systems",
             "Software Development",
             "Theory of Computation",
-            "Web Technology & Applications"
+            "Web Technology and Applications"
         ],
         "lsa_paths": [
             "Artificial Intelligence",
             "Bioinformatics",
-            "Data & Information",
-            "Economics & Computation",
-            "Robotics & Vision",
+            "Data and Information",
+            "Economics and Computation",
+            "Robotics and Vision",
             "Security",
             "Software Development",
             "Software Systems",
