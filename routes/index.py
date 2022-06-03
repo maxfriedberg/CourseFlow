@@ -1,8 +1,8 @@
 import flask
-import routes
+import courseflow
 
 
-@routes.app.route('/')
+@courseflow.app.route('/')
 def show_index():
     paths = {
         "eng_paths": [
