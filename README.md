@@ -6,6 +6,7 @@
     source env/bin/activate
     ```
     NOTE: I think on Windows it might be just 'python' instead of 'python3'
+
 2) Install flask
     ```
     pip install flask
