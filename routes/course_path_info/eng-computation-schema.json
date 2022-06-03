@@ -1,6 +1,6 @@
 {
-    "path_name": "Software Development",
-    "url": "/lsa/softwaredevelopment",
+    "path_name": "Theory of Computation",
+    "url": "/eng/computation",
     "core_courses": [
         {
             "course": "EECS 203",
@@ -33,24 +33,18 @@
             "name": "Foundations of Computer Science"
         },
         {
-            "course": "STATS 250",
-            "median_grade": "B+",
-            "workload": "moderate",
-            "name": "Introduction to Statistics and Data Analysis"
+            "course": "EECS 496",
+            "median_grade": "A",
+            "workload": "easy",
+            "name": "Major Design Experience"
         }
     ],
     "upper_courses": [
         {
-            "course": "EECS 492",
+            "course": "EECS 475",
             "median_grade": "B+",
             "workload": "moderate",
-            "name": "Introduction to Artificial Intelligence"
-        },
-        {
-            "course": "EECS 481",
-            "median_grade": "A-",
-            "workload": "moderate",
-            "name": "Software Engineering"
+            "name": "Introduction to Cryptography"
         },
         {
             "course": "EECS 477",
@@ -59,22 +53,10 @@
             "name": "Introduction to Algorithms"
         },
         {
-            "course": "EECS 485",
-            "median_grade": "B+",
+            "course": "EECS 490",
+            "median_grade": "A-",
             "workload": "moderate",
-            "name": "Web Systems"
-        },
-        {
-            "course": "EECS 482",
-            "median_grade": "B+",
-            "workload": "extremely heavy",
-            "name": "Introduction to Operating Systems"
-        },
-        {
-            "course": "EECS 484",
-            "median_grade": "B+",
-            "workload": "moderate",
-            "name": "Database Management Systems"
+            "name": "Programming Language"
         }
     ]
 }
