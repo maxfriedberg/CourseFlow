@@ -1,5 +1,6 @@
 {
     "path": "ai",
+    "url": "/lsa/artificialintelligence",
     "core_courses": [
         {
             "course": "EECS 203",
