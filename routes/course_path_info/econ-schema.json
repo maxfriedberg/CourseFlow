@@ -1,6 +1,6 @@
 {
-    "path_name": "Bioinformatics",
-    "url": "/lsa/bioinformatics",
+    "path_name": "Economics and Computation",
+    "url": "/lsa/economicsandcomputation",
     "core_courses": [
         {
             "course": "EECS 203",
