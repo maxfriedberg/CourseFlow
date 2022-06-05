@@ -22,24 +22,34 @@
         <a> tags, where href="url_for('X')" where X is the name of the route's
         function (ex. 'get_lsa_ai')
        -->
-
-        <p style="font-size: 20px">
-          CS-ENG:
-        </p>
-
-        <p>
-          <a href ="{{ url_for('get_eng_hardware') }}">Computer Hardware</a>
+       <div class="eng_title">
+          <p style="font-size: 20px"><strong>
+            CS-ENG:
+        </strong></p>
+       </div>
+          <div class="pathButton">
+            <a href ="{{ url_for('get_eng_hardware') }}">Computer Hardware</a>
+          </div>
           <br>
-          <a href ="{{ url_for('get_eng_infrastructure') }}">Computing Infrastructure</a>
+          <div class="pathButton">
+            <a href ="{{ url_for('get_eng_infrastructure') }}">Computing Infrastructure</a>
+          </div>
           <br>
-          <a href ="{{ url_for('get_eng_intelligent_systems') }}">Intelligent Systems</a>
+          <div class="pathButton">
+            <a href ="{{ url_for('get_eng_intelligent_systems') }}">Intelligent Systems</a>
+          </div>
           <br>
-          <a href ="{{ url_for('get_eng_software') }}">Software Development</a>
+          <div class="pathButton">
+            <a href ="{{ url_for('get_eng_software') }}">Software Development</a>
+          </div>
           <br>
-          <a href ="{{ url_for('get_eng_theory') }}">Theory of Computation</a>
+          <div class="pathButton">
+            <a href ="{{ url_for('get_eng_theory') }}">Theory of Computation</a>
+          </div>
           <br>
-          <a href ="{{ url_for('get_eng_webtech') }}">Web Technology and Applications</a>
-        </p>
+          <div class="pathButton">
+            <a href ="{{ url_for('get_eng_webtech') }}">Web Technology and Applications</a>
+          </div>
 
         <p style="font-size: 20px">
           CS-LSA:
@@ -115,6 +125,37 @@
 }
 body {
     font-size: 14px;
+}
+a:link {
+    color:black;
+    text-decoration: none;
+}
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    color:black;
+    text-decoration: none;
+}
+a:active {
+    color:black;
+    text-decoration: none;
+}
+.pathButton {
+    width:180px;
+    background-color: #d1d1d1;
+    font-size: 16px;
+    padding:10px 0;
+}
+.eng_title {
+    height: 50px;
+    width:180px;
+    position: absolute;
+    top: 90px;
+    background-color: #95bcf0;
+    font-size: 650px;
+
 }
 .v9_320 {
     width: 100%;
