@@ -23,57 +23,61 @@
         function (ex. 'get_lsa_ai')
        -->
        <div class="eng_title">
-          <p style="font-size: 20px"><strong>
-            CS-ENG:
-        </strong></p>
-       </div>
-          <div class="pathButton">
+           <strong>CS-ENG:</strong>
+       </div">
+       <div class="buttonContainerEng">
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_hardware') }}">Computer Hardware</a>
           </div>
-          <br>
-          <div class="pathButton">
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_infrastructure') }}">Computing Infrastructure</a>
           </div>
-          <br>
-          <div class="pathButton">
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_intelligent_systems') }}">Intelligent Systems</a>
           </div>
-          <br>
-          <div class="pathButton">
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_software') }}">Software Development</a>
           </div>
-          <br>
-          <div class="pathButton">
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_theory') }}">Theory of Computation</a>
           </div>
-          <br>
-          <div class="pathButton">
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_webtech') }}">Web Technology and Applications</a>
           </div>
+        </div>
 
-        <p style="font-size: 20px">
-          CS-LSA:
-        </p>
-
-        <p>
-          <a href="{{ url_for('get_lsa_ai') }}">Artificial Intelligence</a>
-          <br>
-          <a href="{{ url_for('get_lsa_bio') }}">Bioinformatics</a>
-          <br>
-          <a href="{{ url_for('get_lsa_data_and_info') }}">Data and Information</a>
-          <br>
-          <a href="{{ url_for('get_lsa_econ') }}">Economics and Computation</a>
-          <br>
-          <a href="{{ url_for('get_lsa_robotics') }}">Robotics and Vision</a>
-          <br>
-          <a href="{{ url_for('get_lsa_security') }}">Security</a>
-          <br>
-          <a href="{{ url_for('get_lsa_software_development') }}">Software Development</a>
-          <br>
-          <a href="{{ url_for('get_lsa_software_systems') }}">Software Systems</a>
-          <br>
-          <a href="{{ url_for('get_lsa_theory') }}"></a>
-        </p>
+        <div class="lsa_title">
+            <strong>CS-LSA:</strong>
+        </div>
+        <div class="buttonContainerLsa">
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_ai') }}">Artificial Intelligence</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_bio') }}">Bioinformatics</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_data_and_info') }}">Data and Information</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_econ') }}">Economics and Computation</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_robotics') }}">Robotics and Vision</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_security') }}">Security</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_software_development') }}">Software Development</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_software_systems') }}">Software Systems</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_theory') }}">Theory of Computation</a>
+            </div>
+        </div>
 
 
       </div>
@@ -142,20 +146,55 @@ a:active {
     color:black;
     text-decoration: none;
 }
-.pathButton {
+.buttonContainerEng {
+    position:absolute;
+    left:10px;
+    width:300px;
+    padding:10px 0;
+}
+.buttonContainerLsa {
+    position:absolute;
+    left:1000px;
+    width:300px;
+    padding:10px 0;
+}
+.pathButtonEng {
+    left:10px;
     width:180px;
     background-color: #d1d1d1;
     font-size: 16px;
     padding:10px 0;
+    margin-top:5px;
+}
+.pathButtonLsa {
+    width:180px;
+    background-color: #d1d1d1;
+    font-size: 16px;
+    padding:10px 0;
+    margin-top:5px;
+    left:-2px;
 }
 .eng_title {
+    color:black;
     height: 50px;
     width:180px;
     position: absolute;
     top: 90px;
+    left:60px;
     background-color: #95bcf0;
-    font-size: 650px;
-
+    font-size: 30px;
+    padding:10px 0;
+}
+.lsa_title {
+    color:black;
+    height: 50px;
+    width:180px;
+    position: absolute;
+    top: 0px;
+    left:1000px;
+    background-color: #95bcf0;
+    font-size: 30px;
+    padding:10px 0;
 }
 .v9_320 {
     width: 100%;
