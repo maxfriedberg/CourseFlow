@@ -5,98 +5,108 @@
         <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet" />
     </head>
     <body>
-        <div class="v9_320">
-            <div class="name"></div>
-            <div class="name"></div>
-            <span class="v9_329">Core Classes</span>
-            <span class="v9_330">Upper Level Classes</span>
-            <div class="v9_331"></div>
-            <div class="v9_332"></div>
-            <span class="v9_334">EECS 281 (B+)
-            Data Structures & Algorithms</span>
-            <div class="v9_335"></div>
-            <div class="v9_336"></div>
-            <span class="v9_338">EECS 370 (B+)
-            Intro to Computer Organization</span>
-            <div class="v9_339"></div>
-            <span class="v9_341">EECS 376 (B)
-            Foundations of Computer 
-            Science</span>
-            <div class="v9_342"></div>
-            <div class="v9_343"></div>
-            <span class="v9_345">STATS 250 (B+)
-            Introduction to Statistics
-            and Data Analysis</span>
-            <div class="v9_346"></div>
-            <div class="v9_347"></div>
-            <div class="v9_348"></div>
-            <div class="v9_349"></div>
-            <div class="v9_350"></div>
-            <div class="v9_351"></div>
-            <div class="v9_352"></div>
-            <div class="v9_353"></div>
-            <div class="v9_354"></div>
-            <div class="v9_355"></div>
-            <div class="v9_356"></div>
-            <div class="v9_357"></div>
-            <div class="v9_358"></div>
-            <span class="v9_359">EECS 203 (B)
-            Discrete Math</span>
-            <div class="v9_361"></div>
-            <div class="v9_362"></div>
-            <span class="v9_363">EECS 280 (B+)
-            Programming & Introduction
-            to Data Structures</span>
-            <div class="v9_364"></div>
-            <div class="v9_365"></div>
-            <span class="v9_367">EECS 442 (A)
-            Computer Vision</span>
-            <div class="v9_368"></div>
-            <div class="v9_369"></div>
-            <span class="v9_370">EECS 595 (A)
-            Natural Language Processing</span>
-            <div class="v9_371"></div>
-            <div class="v9_372"></div>
-            <span class="v9_373">EECS 484 (B+)
-            Database Management 
-            Systems</span>
-            <div class="v19_297"></div>
-            <div class="v19_298"></div>
-            <div class="v19_299"></div>
-            <span class="v19_300">EECS 489 (A-)
-            Computer Networks</span>
-            <div class="v9_374"></div>
-            <div class="v9_375"></div>
-            <span class="v9_376">EECS 492 (B+)
-            Introduction to Artificial 
-            Intelligence</span>
-            <div class="v9_377"></div>
-            <div class="v9_378"></div>
-            <span class="v9_379">EECS 445 (A-)
-            Introduction to Machine
-            Learning</span>
-            <div class="v9_380"></div>
-            <span class="v9_381">Your Selection: CS-LSA,
-            Artificial Intelligence</span>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="v53_463"></div>
-            <div class="v53_464"></div>
-            <div class="v53_465"></div>
-            <div class="v53_466"></div>
-            <span class="v53_467">Easy</span>
-            <span class="v53_468">Moderate</span>
-            <span class="v53_469">Heavy</span>
-            <span class="v53_470">Extremely Heavy</span>
-        </div>
+
+
+      <div style="text-align: center">
+
+        <p style="font-size: 30px">
+          <b>Welcome To Course<i>Flow</i>!</b>
+          <br>
+          <span style=""><b>Choose a track below</b></span>
+          <br>
+          <span><a href="{{ url_for('show_index') }}">Return to home</a></span>
+        </p>
+
+        <!-- Names of routes below (For each school)
+        (Computer Hardware, Bioinformatics) need to be placed within
+        <a> tags, where href="url_for('X')" where X is the name of the route's
+        function (ex. 'get_lsa_ai')
+       -->
+
+        <p style="font-size: 20px">
+          CS-ENG:
+        </p>
+
+        <p>
+          Computer Hardware
+          <br>
+          Computing Infrastructure
+          <br>
+          Intelligent Systems
+          <br>
+          Software Development
+          <br>
+          Theory of Computation
+          <br>
+          Web Technology and Applications
+        </p>
+
+        <p style="font-size: 20px">
+          CS-LSA:
+        </p>
+
+        <p>
+          <a href="{{ url_for('get_lsa_ai') }}">Artificial Intelligence</a>
+          <br>
+          Bioinformatics
+          <br>
+          Data and Information
+          <br>
+          Economics and Computation
+          <br>
+          Robotics and Vision
+          <br>
+          Security
+          <br>
+          Software Development
+          <br>
+          Software Systems
+          <br>
+          Theory of Computation
+        </p>
+
+
+      </div>
+
+      <div style="text-align: center">
+
+        Your Selection: {{ path_name }}
+
+      </div>
+
+      <div style="text-align: center">
+          <p style="font-size: 18px">
+            <b>Core Classes</b>
+          </p>
+
+          {% for class in core_courses  %}
+
+          <span>{{ class.course }}</span><span>{{ class.median_grade }}</span>
+          <span>{{ class.workload }}</span><span>{{ class.name }}</span>
+
+          <br>
+
+          {% endfor %}
+
+          <br>
+
+          <p style="font-size: 18px">
+            <b>Upper Level Classes</b>
+          </p>
+
+          {% for class in upper_courses  %}
+
+          <span>{{ class.course }}</span><span>{{ class.median_grade }}</span>
+          <span>{{ class.workload }}</span><span>{{ class.name }}</span>
+
+          <br>
+
+          {% endfor %}
+
+      </div>
+
+
+
     </body>
 </html>
 <br/><br/>

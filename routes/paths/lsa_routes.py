@@ -5,9 +5,10 @@ import json
 @courseflow.app.route('/lsa/artificialintelligence')
 def get_lsa_ai():
     path_to_jsons = courseflow.app.config['COURSE_PATH_JSONS']
-    with open(f'/{path_to_jsons}/ai-schema.json/') as ai_json:
+    with open(f'/{path_to_jsons}/ai-schema.json') as ai_json:
         ai_info = json.load(ai_json)
     return flask.render_template("lsa-ai.html", **ai_info)
+
 
 @courseflow.app.route('/lsa/bioinformatics')
 def get_lsa_bio():
@@ -15,6 +16,8 @@ def get_lsa_bio():
     with open(f'/{path_to_jsons}/bio-schema.json/') as bio_json:
         bio_info = json.load(bio_json)
     return flask.render_template("lsa-ai.html", **bio_info)
+
+"""
 
 @courseflow.app.route('/lsa/dataandinformation')
 def get_lsa_data_and_info():
@@ -64,3 +67,5 @@ def get_lsa_theory():
     with open(f'/{path_to_jsons}/computation-schema.json/') as theory_json:
         theory_info = json.load(theory_json)
     return flask.render_template("lsa-ai.html", **theory_info)
+
+"""
