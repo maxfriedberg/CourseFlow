@@ -9,52 +9,73 @@
       <div style="text-align: center">
 
         <p style="font-size: 30px">
+          <br><br>
           <b>Welcome To Course<i>Flow</i>!</b>
           <br>
-          <span style=""><b>Choose a track below</b></span>
+          <span style=""><b>Select a track</b></span>
         </p>
 
-        <p style="font-size: 20px">
-          CS-ENG:
-        </p>
-
-        <p>
+        <!-- Names of routes below (For each school)
+        (Computer Hardware, Bioinformatics) need to be placed within
+        <a> tags, where href="url_for('X')" where X is the name of the route's
+        function (ex. 'get_lsa_ai')
+       -->
+       <div class="eng_title">
+           <strong>CS-ENG:</strong>
+       </div">
+       <div class="buttonContainerEng">
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_hardware') }}">Computer Hardware</a>
-            <br>
+          </div>
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_infrastructure') }}">Computing Infrastructure</a>
-            <br>
+          </div>
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_intelligent_systems') }}">Intelligent Systems</a>
-            <br>
+          </div>
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_software') }}">Software Development</a>
-            <br>
+          </div>
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_theory') }}">Theory of Computation</a>
-            <br>
+          </div>
+          <div class="pathButtonEng">
             <a href ="{{ url_for('get_eng_webtech') }}">Web Technology and Applications</a>
-          </p>
+          </div>
+        </div>
 
-        <p style="font-size: 20px">
-          CS-LSA:
-        </p>
-
-        <p>
-          <a href="{{ url_for('get_lsa_ai') }}">Artificial Intelligence</a>
-          <br>
-          <a href="{{ url_for('get_lsa_bio') }}">Bioinformatics</a>
-          <br>
-          <a href="{{ url_for('get_lsa_data_and_info') }}">Data and Information</a>
-          <br>
-          <a href="{{ url_for('get_lsa_econ') }}">Economics and Computation</a>
-          <br>
-          <a href="{{ url_for('get_lsa_robotics') }}">Robotics and Vision</a>
-          <br>
-          <a href="{{ url_for('get_lsa_security') }}">Security</a>
-          <br>
-          <a href="{{ url_for('get_lsa_software_development') }}">Software Development</a>
-          <br>
-          <a href="{{ url_for('get_lsa_software_systems') }}">Software Systems</a>
-          <br>
-          <a href="{{ url_for('get_lsa_theory') }}"></a>
-        </p>
+        <div class="lsa_title">
+            <strong>CS-LSA:</strong>
+        </div>
+        <div class="buttonContainerLsa">
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_ai') }}">Artificial Intelligence</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_bio') }}">Bioinformatics</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_data_and_info') }}">Data and Information</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_econ') }}">Economics and Computation</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_robotics') }}">Robotics and Vision</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_security') }}">Security</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_software_development') }}">Software Development</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_software_systems') }}">Software Systems</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_theory') }}">Theory of Computation</a>
+            </div>
+        </div>
 
 
       </div>
@@ -67,72 +88,87 @@
 <br/>
 <br/>
 <style>* {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+.floatAboveEverything {
+z-index: 1000;
+position: absolute;
 }
 body {
-    font-size: 14px;
+  font-size: 14px;
 }
-.v2_2 {
-    width: 100%;
-    height: 1024px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
+a:link {
+  color:black;
+  text-decoration: none;
 }
-.name {
-    color: #fff;
+a:visited {
+  color:black;
+  text-decoration: none;
 }
-.v7_292 {
-    width: 496px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 317px;
-    left: 674px;
-    font-family: Abel;
-    font-weight: Regular;
-    font-size: 32px;
-    opacity: 1;
-    text-align: left;
+a:hover {
+  color:black;
+  text-decoration: none;
 }
-.v12_267 {
-    width: 600px;
-    height: 88px;
-    background: rgba(196,196,196,1);
-    opacity: 1;
-    position: absolute;
-    top: 38px;
-    left: 406px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    overflow: hidden;
+a:active {
+  color:black;
+  text-decoration: none;
 }
-.v11_267 {
-    width: 452px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 59px;
-    left: 422px;
-    font-family: Abel;
-    font-weight: Regular;
-    font-size: 48px;
-    opacity: 1;
-    text-align: left;
+.buttonContainerEng {
+  position:absolute;
+  width:300px;
+  top:50px;
+  padding:10px 0;
 }
-.v10_268 {
-    width: 267px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 177px;
-    left: 673px;
-    font-family: Abel;
-    font-weight: Regular;
-    font-size: 32px;
-    opacity: 1;
-    text-align: left;
+.buttonContainerLsa {
+  position:absolute;
+  left:300px;
+  top:50px;
+  width:300px;
+  padding:10px 0;
 }
+.pathButtonEng {
+  left:10px;
+  width:180px;
+  background-color: #d1d1d1;
+  font-size: 16px;
+  padding:10px 0;
+  margin-top:5px;
+}
+.pathButtonEng:hover {
+  background-color: #a6a6a6;
+}
+.pathButtonLsa {
+  width:180px;
+  background-color: #d1d1d1;
+  font-size: 16px;
+  padding:10px 0;
+  margin-top:5px;
+  left:-2px;
+}
+.pathButtonLsa:hover {
+    background-color: #a6a6a6;
+}
+.eng_title {
+  color:black;
+  height: 50px;
+  width:180px;
+  position: absolute;
+  top: 200px;
+  left:450px;
+  background-color: #95bcf0;
+  font-size: 30px;
+  padding:10px 0;
+}
+.lsa_title {
+  color:black;
+  height: 50px;
+  width:180px;
+  position: absolute;
+  left:300px;
+  top:0px;
+  background-color: #95bcf0;
+  font-size: 30px;
+  padding:10px 0;
+}
+
 </style>

@@ -8,20 +8,16 @@
 
 
       <div style="text-align: center">
+        <div class="welcomeMsg">
+            <p style="font-size: 30px">
+              <b>Welcome To Course<i>Flow</i>!</b>
+              <br>
+              <span style=""><b>Select a track</b></span>
+              <br>
+              <div class="homeButton"><span><a href="{{ url_for('show_index') }}">Return to home</a></span></div>
+            </p>
+        </div>
 
-        <p style="font-size: 30px">
-          <b>Welcome To Course<i>Flow</i>!</b>
-          <br>
-          <span style=""><b>Choose a track below</b></span>
-          <br>
-          <span><a href="{{ url_for('show_index') }}">Return to home</a></span>
-        </p>
-
-        <!-- Names of routes below (For each school)
-        (Computer Hardware, Bioinformatics) need to be placed within
-        <a> tags, where href="url_for('X')" where X is the name of the route's
-        function (ex. 'get_lsa_ai')
-       -->
        <div class="eng_title">
            <strong>CS-ENG:</strong>
        </div">
@@ -82,11 +78,8 @@
 
       </div>
 
-      <div style="text-align: center">
-
-        <h1>        Your Selection: {{ path_name }}</h1>
-
-
+      <div class="yourSelection">
+        <h1>Your Selection: {{ path_name }}</h1>
       </div>
 
       <div class = "classes" style="text-align: center">
@@ -179,7 +172,6 @@ a:active {
 }
 .buttonContainerEng {
     position:absolute;
-    left:10px;
     width:300px;
     padding:10px 0;
 }
@@ -241,6 +233,9 @@ a:active {
     padding:10px 0;
     margin-top:5px;
 }
+.pathButtonEng:hover {
+    background-color: #a6a6a6;
+}
 .pathButtonLsa {
     width:180px;
     background-color: #d1d1d1;
@@ -248,6 +243,9 @@ a:active {
     padding:10px 0;
     margin-top:5px;
     left:-2px;
+}
+.pathButtonLsa:hover {
+    background-color: #a6a6a6;
 }
 .eng_title {
     color:black;
@@ -270,6 +268,30 @@ a:active {
     background-color: #95bcf0;
     font-size: 30px;
     padding:10px 0;
+}
+.homeButton {
+    background-color: #d1d1d1;
+    position: absolute;
+    left:560px;
+    width:150px;
+    top:20px;
+    font-size:20px;
+    text-align: center;
+    border: 1px solid black;
+}
+.homeButton:hover {
+    background-color: #a6a6a6;
+}
+.yourSelection {
+    position: absolute;
+    font-size:15px;
+    left: 450px;
+    top:140px;
+}
+.welcomeMsg {
+    font-size: 30px;
+    position: absolute;
+    right:600px;
 }
 
 </style>
