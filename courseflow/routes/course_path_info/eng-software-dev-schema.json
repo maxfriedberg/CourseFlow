@@ -1,0 +1,68 @@
+{
+    "path_name": "Software Development",
+    "url": "/eng/softwaredevelopment",
+    "core_courses": [
+        {
+            "course": "EECS 203",
+            "median_grade": "B",
+            "workload": "moderate",
+            "name": "Discrete Math"
+        },
+        {
+            "course": "EECS 280",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Programming & Introduction to Data Structures"
+        },
+        {
+            "course": "EECS 281",
+            "median_grade": "B+",
+            "workload": "heavy",
+            "name": "Data Structures & Algorithms"
+        },
+        {
+            "course": "EECS 370",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Intro to Computer Organization"
+        },
+        {
+            "course": "EECS 376",
+            "median_grade": "B",
+            "workload": "moderate",
+            "name": "Foundations of Computer Science"
+        },
+        {
+            "course": "EECS 496",
+            "median_grade": "A",
+            "workload": "easy",
+            "name": "Major Design Experience"
+        }
+    ],
+    "upper_courses": [
+        {
+            "course": "EECS 482",
+            "median_grade": "B+",
+            "workload": "extremely heavy",
+            "name": "Introduction to Operating Systems"
+        },
+        {
+            "course": "EECS 485",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Software Engineering"
+        },
+        {
+            "course": "EECS 494",
+            "median_grade": "A",
+            "workload": "extremely heavy",
+            "name": "Computer Game Design and Development"
+        },
+        {
+            "course": "EECS 484",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Database Management Systems"
+        }
+    ]
+}

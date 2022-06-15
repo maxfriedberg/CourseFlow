@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+
+
+      <div style="text-align: center">
+        <div class="welcomeMsg">
+            <p style="font-size: 30px">
+              <b>Welcome To Course<i>Flow</i>!</b>
+              <br>
+              <span><b>Select a track</b></span>
+              <br>
+              <div class="homeButton"><span><a href="{{ url_for('show_index') }}">Return to home</a></span></div>
+            </p>
+        </div>
+
+       <div class="eng_title">
+           <strong>CS-ENG:</strong>
+       </div">
+       <div class="buttonContainerEng">
+          <div class="pathButtonEng">
+            <a href ="{{ url_for('get_eng_hardware') }}">Computer Hardware</a>
+          </div>
+          <div class="pathButtonEng">
+            <a href ="{{ url_for('get_eng_infrastructure') }}">Computing Infrastructure</a>
+          </div>
+          <div class="pathButtonEng">
+            <a href ="{{ url_for('get_eng_intelligent_systems') }}">Intelligent Systems</a>
+          </div>
+          <div class="pathButtonEng">
+            <a href ="{{ url_for('get_eng_software') }}">Software Development</a>
+          </div>
+          <div class="pathButtonEng">
+            <a href ="{{ url_for('get_eng_theory') }}">Theory of Computation</a>
+          </div>
+          <div class="pathButtonEng">
+            <a href ="{{ url_for('get_eng_webtech') }}">Web Technology and Applications</a>
+          </div>
+        </div>
+
+        <div class="lsa_title">
+            <strong>CS-LSA:</strong>
+        </div>
+        <div class="buttonContainerLsa">
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_ai') }}">Artificial Intelligence</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_bio') }}">Bioinformatics</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_data_and_info') }}">Data and Information</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_econ') }}">Economics and Computation</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_robotics') }}">Robotics and Vision</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_security') }}">Security</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_software_development') }}">Software Development</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_software_systems') }}">Software Systems</a>
+            </div>
+            <div class="pathButtonLsa">
+                <a href="{{ url_for('get_lsa_theory') }}">Theory of Computation</a>
+            </div>
+        </div>
+
+
+      </div>
+
+      <div class="yourSelection">
+        <h1>Your Selection: {{ path_name }}</h1>
+      </div>
+
+      <div class = "classes" style="text-align: center">
+        <p style="font-size: 18px">
+            <b>Core Classes</b>
+          </p>
+
+          {% for class in core_courses  %}
+
+          {% if class.workload == "easy" %}
+              <div class = "easy rectangle floatAboveEverything">
+          {% elif class.workload == "moderate" %}
+                <div class = "moderate rectangle floatAboveEverything">
+          {% elif class.workload == "heavy" %}
+                <div class = "heavy rectangle floatAboveEverything">
+          {% elif class.workload == "extremely heavy" %}
+                <div class = "extremely-heavy rectangle floatAboveEverything">
+          {% endif %}
+                </div>
+
+            <div class = "classblock">
+          <span>{{ class.course }}</span><span>
+              <br>
+              Median Grade: {{ class.median_grade }}</span>
+              <br>
+              Course Title:
+            <span>{{ class.name }}</span>
+          </div>
+            {% endfor %}
+        </div>
+        <div class = "upperlevels">
+          <p style="font-size: 18px">
+            <b>Upper Level Classes</b>
+          </p>
+
+          {% for class in upper_courses  %}
+
+          {% if class.workload == "easy" %}
+              <div class = "easy rectangle floatAboveEverything">
+          {% elif class.workload == "moderate" %}
+                <div class = "moderate rectangle floatAboveEverything">
+          {% elif class.workload == "heavy" %}
+                <div class = "heavy rectangle floatAboveEverything">
+          {% elif class.workload == "extremely heavy" %}
+                <div class = "extremely-heavy rectangle floatAboveEverything">
+          {% endif %}
+                </div>
+
+            <div class = "classblock">
+          <span>{{ class.course }}</span><span>
+              <br>
+              Median Grade: {{ class.median_grade }}</span>
+              <br>
+              Course Title:
+            <span>{{ class.name }}</span>
+          </div>
+            {% endfor %}
+        </div>
+
+        <div class="colorKey">
+            <div class="workloadTitle"><strong>Workload Key</strong></div>
+            <div class="easy colorKeyBlock">
+                Easy
+            </div>
+            <br>
+            <div class="moderate colorKeyBlock">
+                Moderate
+            </div>
+            <br>
+            <div class="heavy colorKeyBlock">
+                Heavy
+            </div>
+            <br>
+            <div class="extremely-heavy colorKeyBlock">
+                Extremely Heavy
+            </div>
+        </div>
+
+
+
+    </body>
+</html>
+<br/><br/>
+<style>* {
+    box-sizing: border-box;
+}
+.workloadTitle{
+    width: 170px;
+    font-size: 20px;
+    height:35px;
+}
+.floatAboveEverything {
+	z-index: 1000;
+	position: absolute;
+}
+body {
+    font-size: 14px;
+}
+a:link {
+    color:black;
+    text-decoration: none;
+}
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    color:black;
+    text-decoration: none;
+}
+a:active {
+    color:black;
+    text-decoration: none;
+}
+.buttonContainerEng {
+    position:absolute;
+    width:300px;
+    padding:10px 0;
+}
+.easy{
+    background-color: #20CE46;
+    color: black;
+}
+.easyKey{
+    position: absolute;
+    top:10px;
+    left:70px;
+}
+.moderate{
+    background-color: #F7FB57;
+    color: black;
+}
+.moderateKey{
+    position: absolute;
+    top:70px;
+    left:50px;
+}
+.heavy{
+    background-color: #FB9A40;
+    color: black;
+}
+.heavyKey{
+    position: absolute;
+    top:135px;
+    left:50px;
+}
+.extremely-heavy{
+    background-color: #ff6666;
+    color: black;
+}
+.extremely-heavyKey{
+    position: absolute;
+    top:205px;
+    left:50px;
+}
+.colorKeyBlock{
+    width: 170px;
+    font-size: 20px;
+    height:35px;
+    padding: 5px 0;
+}
+.colorKey{
+    text-align: center;
+    position: absolute;
+    top:450px;
+    left:70px;
+    width: 20px;
+    height:60px;
+}
+.classes{
+    position:absolute;
+    left:300px;
+    top:200px;
+    height:450px;
+}
+.upperlevels{
+    position:absolute;
+    left:700px;
+    height:450px;
+    top:200px;
+}
+.classblock{
+    background-color: #d1d1d1;
+    display:block;
+    padding-left:30px;
+    width:300px;
+    margin-top: 10px;
+    height: 70px;
+}
+.rectangle{
+    display:block;
+    width: 20px;
+    height:60px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+.buttonContainerLsa {
+    position:absolute;
+    left:1000px;
+    width:300px;
+    padding:10px 0;
+}
+.pathButtonEng {
+    left:10px;
+    width:180px;
+    background-color: #d1d1d1;
+    font-size: 16px;
+    padding:10px 0;
+    margin-top:5px;
+}
+.pathButtonEng:hover {
+    background-color: #a6a6a6;
+}
+.pathButtonLsa {
+    width:180px;
+    background-color: #d1d1d1;
+    font-size: 16px;
+    padding:10px 0;
+    margin-top:5px;
+    left:-2px;
+}
+.pathButtonLsa:hover {
+    background-color: #a6a6a6;
+}
+.eng_title {
+    color:black;
+    height: 50px;
+    width:180px;
+    position: absolute;
+    top: 90px;
+    left:60px;
+    background-color: #95bcf0;
+    font-size: 30px;
+    padding:10px 0;
+}
+.lsa_title {
+    color:black;
+    height: 50px;
+    width:180px;
+    position: absolute;
+    top: 0px;
+    left:1000px;
+    background-color: #95bcf0;
+    font-size: 30px;
+    padding:10px 0;
+}
+.homeButton {
+    background-color: #d1d1d1;
+    position: absolute;
+    left:600px;
+    width:150px;
+    top:20px;
+    font-size:20px;
+    text-align: center;
+    border: 1px solid black;
+}
+.homeButton:hover {
+    background-color: #a6a6a6;
+}
+.yourSelection {
+    position: absolute;
+    font-size:15px;
+    left: 400px;
+    top:140px;
+}
+.welcomeMsg {
+    font-size: 30px;
+    position: absolute;
+    right:630px;
+}
+
+</style>

@@ -1,0 +1,80 @@
+{
+    "path_name": "Data and Information",
+    "url": "/lsa/dataandinformation",
+    "core_courses": [
+        {
+            "course": "EECS 203",
+            "median_grade": "B",
+            "workload": "moderate",
+            "name": "Discrete Math"
+        },
+        {
+            "course": "EECS 280",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Programming & Introduction to Data Structures"
+        },
+        {
+            "course": "EECS 281",
+            "median_grade": "B+",
+            "workload": "heavy",
+            "name": "Data Structures & Algorithms"
+        },
+        {
+            "course": "EECS 370",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Intro to Computer Organization"
+        },
+        {
+            "course": "EECS 376",
+            "median_grade": "B",
+            "workload": "moderate",
+            "name": "Foundations of Computer Science"
+        },
+        {
+            "course": "STATS 250",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Introduction to Statistics and Data Analysis"
+        }
+    ],
+    "upper_courses": [
+        {
+            "course": "EECS 492",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Introduction to Artificial Intelligence"
+        },
+        {
+            "course": "EECS 445",
+            "median_grade": "A-",
+            "workload": "heavy",
+            "name": "Introduction to Machine Learning"
+        },
+        {
+            "course": "EECS 477",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Introduction to Algorithms"
+        },
+        {
+            "course": "EECS 485",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Web Systems"
+        },
+        {
+            "course": "EECS 482",
+            "median_grade": "B+",
+            "workload": "extremely heavy",
+            "name": "Introduction to Operating Systems"
+        },
+        {
+            "course": "EECS 484",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Database Management Systems"
+        }
+    ]
+}

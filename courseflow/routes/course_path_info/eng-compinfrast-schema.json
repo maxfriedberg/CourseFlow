@@ -1,0 +1,74 @@
+{
+    "path_name": "Computing Infrastructure",
+    "url": "/lsa/computinginfrastructure",
+    "core_courses": [
+        {
+            "course": "EECS 203",
+            "median_grade": "B",
+            "workload": "moderate",
+            "name": "Discrete Math"
+        },
+        {
+            "course": "EECS 280",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Programming & Introduction to Data Structures"
+        },
+        {
+            "course": "EECS 281",
+            "median_grade": "B+",
+            "workload": "heavy",
+            "name": "Data Structures & Algorithms"
+        },
+        {
+            "course": "EECS 370",
+            "median_grade": "B+",
+            "workload": "moderate",
+            "name": "Intro to Computer Organization"
+        },
+        {
+            "course": "EECS 376",
+            "median_grade": "B",
+            "workload": "moderate",
+            "name": "Foundations of Computer Science"
+        },
+        {
+            "course": "EECS 496",
+            "median_grade": "A",
+            "workload": "easy",
+            "name": "Major Design Experience"
+        }
+    ],
+    "upper_courses": [
+        {
+            "course": "EECS 491",
+            "median_grade": "B+",
+            "workload": "heavy",
+            "name": "Introduction to Distributed Systems"
+        },
+        {
+            "course": "EECS 482",
+            "median_grade": "B+",
+            "workload": "extremely heavy",
+            "name": "Introduction to Operating Systems"
+        },
+        {
+            "course": "EECS 489",
+            "median_grade": "A-",
+            "workload": "heavy",
+            "name": "Computer Networks"
+        },
+        {
+            "course": "EECS 483",
+            "median_grade": "A",
+            "workload": "heavy",
+            "name": "Compiler Construction"
+        },
+        {
+            "course": "EECS 484",
+            "median_grade": "A-",
+            "workload": "moderate",
+            "name": "Database Management Systems"
+        }
+    ]
+}
