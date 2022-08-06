@@ -23,3 +23,12 @@ def query_course_titles_by_track(db, school, track):
     (school, track)
   )
   return cursor.fetchall()
+
+
+def query_course_grade_info(db, department, courseNum):
+  cursor = db.execute(
+    "SELECT grade, percentage, barInfo, yCoord FROM courseGradeData "
+    "WHERE department = ? AND courseNum = ?",
+    (department, courseNum)
+  )
+  return cursor.fetchall()

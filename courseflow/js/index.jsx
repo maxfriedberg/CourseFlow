@@ -3,4 +3,4 @@ import { createRoot } from 'react-dom/client'
 import CourseFlow from './CourseFlow'
 
 const root = createRoot( document.getElementById('reactEntry') )
-root.render( <CourseFlow url="/api" /> );
+root.render( <CourseFlow /> );

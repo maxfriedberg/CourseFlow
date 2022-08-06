@@ -11,21 +11,21 @@ class XAxis extends React.Component {
 
     return (
     <g className="xaxislayer-above">
-      {xAxisData.map((gradeData) => (
+      {Object.entries(xAxisData).map(([grade, xCoord]) => (
         <text
-          key={gradeData.grade}
+          key={grade}
           y="198"
           fill="#444"
           data-math="N"
-          data-unformatted={gradeData.grade}
+          data-unformatted={grade}
           fontFamily="Usual, Helvetica, Arial, sans-serif"
           fontSize="12"
           textAnchor="middle"
-          transform={`translate(${gradeData.xCoord})`}
+          transform={`translate(${xCoord})`}
           className="0"
           style={{ whiteSpace: "pre" }}
         >
-          {gradeData.grade}
+          {grade}
         </text>
       ))}
     </g>)
@@ -33,7 +33,7 @@ class XAxis extends React.Component {
 }
 
 XAxis.propTypes = {
-  xAxisData: PropTypes.array.isRequired,
+  xAxisData: PropTypes.object.isRequired,
 }
 
 export default XAxis;

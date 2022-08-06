@@ -1,13 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import axios from 'axios';
 import { Row, Col, Card } from 'react-bootstrap';
 import utils from '../../utils'
-import { gradeDistributionData } from '../../../static/course_info'
 import MedianGradeGraph from '../MedianGradeGraph';
 
 class DetailsBody extends React.Component {
     constructor(props) {
         super(props)
+        this.state = {
+            gradeData: {}
+        }
         this.renderDescription = this.renderDescription.bind(this)
         this.renderPrereqs = this.renderPrereqs.bind(this)
         this.renderProfessorInfo = this.renderProfessorInfo.bind(this)
@@ -16,16 +19,29 @@ class DetailsBody extends React.Component {
         this.renderGraph = this.renderGraph.bind(this)
     }
 
+    componentDidMount() {
+      const { course } = this.props
+      if (course?.course) {
+        const [ department, courseNum ] = course.course.split(' ')
+        axios.get(process.env.API_BASE_URL + `/courses?department=${department}&courseNum=${courseNum}`)
+          .then(response => {
+            console.log('Received course data: ', response.data)
+            if (response.status !== 200) {
+              console.log(`Received status of ${response.status}`)
+            }
+            this.setState({
+                gradeData: response.data
+            })
+          })
+          .catch(error => console.log(error.message))
+      }
+    }
+
     renderGraph() {
         const { course } = this.props
-        const [department, courseNum] = course?.course ? course.course.trim().split(" ") : [null, null]
 
-        const dataExists = department && courseNum &&
-                            Object.keys(gradeDistributionData).includes(department.toLowerCase()) &&
-                            Object.keys(gradeDistributionData[department.toLowerCase()]).includes(courseNum)
-
-        return dataExists ?
-          <MedianGradeGraph grades={gradeDistributionData[department.toLowerCase()][courseNum]} course={course.course}/> :
+        return Object.keys(this.state.gradeData).length && course?.course ?
+          <MedianGradeGraph grades={this.state.gradeData} course={course.course}/> :
           <div style={{fontSize: '14px'}}>No median grade graph data available.</div>
     }
 
@@ -48,11 +64,8 @@ class DetailsBody extends React.Component {
     
     renderPrereqs() {
         const { course } = this.props
-
-        let prereqString = course.prereqs && Object.keys(course.prereqs).length ?
-            Object.keys(course.prereqs).length === 1 && Array.isArray(course.prereqs[1]) ?
-                `One of: [ ${utils.prereqDictToString(Object.values(course.prereqs[1]), 'OR')} ]` :
-                utils.prereqDictToString(Object.values(course.prereqs), 'AND') :
+        let prereqString = course?.prereqs?.length ?
+            course.prereqs[0] :
             "No prerequisite information available."
 
         return (
@@ -62,7 +75,7 @@ class DetailsBody extends React.Component {
                         Prerequisites
                     </Card.Title>
                     <Card.Text style={{fontSize: '14px'}}>
-                        {utils.capitalizeEachWord(prereqString)}
+                        {prereqString}
                     </Card.Text>
                 </Card.Body>
             </Card>   

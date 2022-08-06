@@ -20,6 +20,14 @@ def get_courses_by_track(school, track):
     'requirements': trackCourses
   }
 
+def get_course_grade_info(department, courseNum):
+  db = courseflow.model.get_db()
+
+  courseGradeData = build_grade_mapping(db, department, courseNum)
+  for grade, gradeData in courseGradeData.items():
+    if gradeData['barInfo'] is None: 
+      del courseGradeData[grade]['barInfo']
+  return courseGradeData
 
 def build_course_mapping(db, department, courseNum):
 
@@ -34,3 +42,14 @@ def build_course_mapping(db, department, courseNum):
     'description': details.get('description', ''),
     'prereqs': [prereq.get('prereqInfo', None) for prereq in prereqs],
   }
+
+def build_grade_mapping(db, department, courseNum):
+  courseGradeData = query_course_grade_info(db, department, courseNum)
+  grades = {}
+  for gradeObj in courseGradeData:
+    grades[gradeObj['grade']] = {
+      'percentage': gradeObj['percentage'],
+      'barInfo': gradeObj.get('barInfo', None),
+      'yCoord': gradeObj['yCoord']
+    }
+  return grades

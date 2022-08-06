@@ -16,11 +16,9 @@ __pycache__/*
 # JavaScript
 bundle.js
 *node_modules*
-files_for_autograder_io/
 */var/*
+.env
 
-# Virtual Machines
-.vagrant/
 
 # Text editors and IDEs
 *~

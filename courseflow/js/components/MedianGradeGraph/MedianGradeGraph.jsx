@@ -6,21 +6,21 @@ import PropTypes from "prop-types";
 class MedianGradeGraph extends React.Component {
   constructor(props) {
     super(props);
-    this.xAxisData = [
-      { grade: "A+", xCoord: "20.575" },
-      { grade: "A", xCoord: "61.73" },
-      { grade: "A-", xCoord: "102.886" },
-      { grade: "B+", xCoord: "144.04" },
-      { grade: "B", xCoord: "185.196" },
-      { grade: "B-", xCoord: "226.345" },
-      { grade: "C+", xCoord: "267.5" },
-      { grade: "C", xCoord: "308.655" },
-      { grade: "C-", xCoord: "349.81" },
-      { grade: "D+", xCoord: "390.967" },
-      { grade: "D", xCoord: "432.115" },
-      { grade: "D-", xCoord: "473.27" },
-      { grade: "E", xCoord: "514.425" },
-    ]
+    this.xAxisData = {
+      "A+": "20.575" ,
+      "A": "61.73" ,
+      "A-": "102.886" ,
+      "B+": "144.04" ,
+      "B": "185.196" ,
+      "B-": "226.345" ,
+      "C+": "267.5" ,
+      "C": "308.655" ,
+      "C-": "349.81" ,
+      "D+": "390.967" ,
+      "D": "432.115" ,
+      "D-": "473.27" ,
+      "E": "514.425" ,
+    }
   }
 
   render() {
@@ -39,7 +39,7 @@ class MedianGradeGraph extends React.Component {
           <g className="barlayer mlayer">
             <g className="trace bars">
               <g className="points">
-                  {grades.map((grade, idx) => <Bar key={idx} xCoord={this.xAxisData[idx].xCoord} {...grade} />)}
+                  {Object.entries(grades).map(([grade, gradeData], idx) => <Bar key={idx} xCoord={this.xAxisData[grade]} {...gradeData} />)}
               </g>
             </g>
           </g>
@@ -51,7 +51,7 @@ class MedianGradeGraph extends React.Component {
 }
 
 MedianGradeGraph.propTypes = {
-  grades: PropTypes.array.isRequired,
+  grades: PropTypes.object.isRequired,
   course: PropTypes.string.isRequired,
 }
 
