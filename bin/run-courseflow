@@ -1,0 +1,87 @@
+#!/bin/bash
+
+SILENT=0
+VERBOSE=0
+WATCH=0
+if [[ -n "$1" ]]; then
+  if [[ "${1#*.}" == "-s" || "${1#*.}" == "--silent" ]]; then
+    SILENT=1;
+  elif [[ "${1#*.}" == "-v" || "${1#*.}" == "--verbose" ]]; then
+    VERBOSE=1;
+  elif [[ "${1#*.}" == "-w" || "${1#*.}" == "--watch" ]]; then
+    WATCH=1;
+  else
+    echo "Error: unknown flag '$1'";
+    exit 1;
+  fi
+
+  if [[ -n "$2" ]]; then
+    if [[ "${2#*.}" == "-s" || "${2#*.}" == "--silent" ]]; then
+      SILENT=1;
+    elif [[ "${2#*.}" == "-v" || "${2#*.}" == "--verbose" ]]; then
+      VERBOSE=1;
+    elif [[ "${2#*.}" == "-w" || "${2#*.}" == "--watch" ]]; then
+      WATCH=1;
+    else
+      echo "Error: unknown flag '$1'";
+      exit 1;
+    fi
+  fi
+fi
+
+if [[ "$SILENT" == 1 && "$VERBOSE" == 1 ]]; then
+  echo "Error: cannot set verbose and silent modes on at the same time"
+  exit 1
+fi
+
+set -Eeuo pipefail;
+
+if [[ "$SILENT" == 1 ]]; then
+  dbreset -s
+else
+  echo "Resetting database..."
+  if [[ "$VERBOSE" == 1 ]]; then
+    dbreset -v
+  else
+    dbreset
+  fi
+fi
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "DONE"
+fi
+
+export FLASK_ENV=development;
+export FLASK_APP=courseflow;
+
+if [[ "$SILENT" == 1 ]]; then
+  if [[ "$WATCH" == 1 ]]; then
+    npx concurrently 'npx webpack --watch >/dev/null  2>/dev/null' 'flask run --host 0.0.0.0 --port 8000 >/dev/null 2>/dev/null' 'sleep 4; echo "Please navigate to localhost:8000 in your browser."; echo "(CTRL + C to stop server)";'
+  else
+    npx webpack >/dev/null 2>/dev/null
+    echo "Please navigate to localhost:8000 in your browser."
+    echo "(CTRL + C to stop server)"
+    flask run --host 0.0.0.0 --port 8000 >/dev/null 2>&1
+  fi
+elif [[ "$VERBOSE" == 1 ]]; then
+  if [[ "$WATCH" == 1 ]]; then
+    echo "Firing up server..."
+    npx concurrently --raw 'npx webpack --watch' 'flask run --host 0.0.0.0 --port 8000' 'sleep 4; echo "Please navigate to localhost:8000 in your browser."; echo "(CTRL + C to stop server)";'
+  else
+    echo "Bundling module..."
+    npx webpack
+    echo "DONE"
+    echo "Firing up server..."
+    npx concurrently --raw 'flask run --host 0.0.0.0 --port 8000' 'sleep 1; echo "Please navigate to localhost:8000 in your browser."; echo "(CTRL + C to stop server)"'
+  fi
+else
+  if [[ "$WATCH" == 1 ]]; then
+    npx concurrently --raw 'npx webpack --watch >/dev/null' 'flask run --host 0.0.0.0 --port 8000 >/dev/null 2>/dev/null' 'echo "Firing up server..."; echo "Please navigate to localhost:8000 in your browser."; echo "(CTRL + C to stop server)"; 2>/dev/null'
+  else
+    echo "Bundling module..."
+    npx webpack >/dev/null
+    echo "Firing up server..."
+    echo "Please navigate to localhost:8000 in your browser."
+    echo "(CTRL + C to stop server)"
+    flask run --host 0.0.0.0 --port 8000 >/dev/null 2>&1
+  fi
+fi

@@ -1,0 +1,6371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Course component ENG Computer Hardware EECS 270 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-270"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 270
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Logic Design
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Computer Hardware EECS 373 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-373"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 373
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Embedded Systems Design
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Computer Hardware EECS 427 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-427"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 427
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Very Large Scale Integrated Design I
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Computer Hardware EECS 470 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-470"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 470
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Architecture
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Computer Hardware EECS 478 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-478"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 478
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Logic Circuit Synthesis and Optimization
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Computing Infrastructure EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Computing Infrastructure EECS 483 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-483"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 483
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Compiler Construction
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Computing Infrastructure EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Computing Infrastructure EECS 489 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-489"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 489
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Networks
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Computing Infrastructure EECS 491 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-491"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 491
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Distributed Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Intelligent Systems EECS 442 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-442"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 442
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Vision
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Intelligent Systems EECS 445 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-445"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 445
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Intelligent Systems EECS 467 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-467"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 467
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Autonomous Robotics Design Experience
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Intelligent Systems EECS 486 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-486"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 486
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Information Retrieval and Web Search
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Intelligent Systems EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Software Development EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Software Development EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Software Development EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Software Engineering
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Software Development EECS 494 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-494"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 494
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Game Design and Development
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Theory of Computation EECS 475 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-475"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 475
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Theory of Computation EECS 477 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-477"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 477
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Theory of Computation EECS 490 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-490"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 490
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Programming Language
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Web Technology and Applications EECS 285 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-285"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 285
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Practical Programming in Java
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Web Technology and Applications EECS 388 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-388"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 388
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Computer Security
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Web Technology and Applications EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Web Technology and Applications EECS 486 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-486"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 486
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Information Retrieval and Web Search
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG Web Technology and Applications EECS 493 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-493"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 493
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      User Interface Development
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Artificial Intelligence EECS 442 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-442"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 442
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Vision
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Artificial Intelligence EECS 445 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-445"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 445
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Artificial Intelligence EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Artificial Intelligence EECS 489 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-489"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 489
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Networks
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Artificial Intelligence EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Artificial Intelligence EECS 543 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-543"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 543
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      N/A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Knowledge-Based Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Artificial Intelligence EECS 545 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-545"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 545
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Artificial Intelligence EECS 595 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-595"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 595
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Natural Language Processing
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Bioinformatics BIOINF 529 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-bioinf-529"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      BIOINF 529
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Bioinformatics Concepts and Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Bioinformatics BIOLOGY 305 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-biology-305"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      BIOLOGY 305
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Genetics
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Bioinformatics EECS 441 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-441"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 441
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Mobile App Development for Entrepreneurs
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Bioinformatics EECS 445 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-445"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 445
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Bioinformatics EECS 477 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-477"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 477
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Bioinformatics EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Bioinformatics EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Bioinformatics EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Computer Hardware EECS 270 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-270"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 270
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Logic Design
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Computer Hardware EECS 373 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-373"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 373
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Embedded Systems Design
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Computer Hardware EECS 427 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-427"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 427
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Very Large Scale Integrated Design I
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Computer Hardware EECS 470 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-470"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 470
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Architecture
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Computer Hardware EECS 478 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-478"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 478
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Logic Circuit Synthesis and Optimization
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Computing Infrastructure EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Computing Infrastructure EECS 483 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-483"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 483
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Compiler Construction
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Computing Infrastructure EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Computing Infrastructure EECS 489 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-489"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 489
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Networks
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Computing Infrastructure EECS 491 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-491"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 491
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Distributed Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Data and Information EECS 445 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-445"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 445
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Data and Information EECS 477 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-477"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 477
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Data and Information EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Data and Information EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Data and Information EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Data and Information EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Economics and Computation ECON 401 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-econ-401"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      ECON 401
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Intermediate Microeconomic Theory
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Economics and Computation ECON 409 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-econ-409"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      ECON 409
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Game Theory
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Economics and Computation ECON 431 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-econ-431"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      ECON 431
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Industrial Organization and Performance
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Economics and Computation ECON 442 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-econ-442"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      ECON 442
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      International Finance
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Economics and Computation EECS 475 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-475"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 475
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Economics and Computation EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Economics and Computation EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Economics and Computation EECS 588 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-588"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 588
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer and Network Security
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Intelligent Systems EECS 442 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-442"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 442
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Vision
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Intelligent Systems EECS 445 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-445"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 445
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Intelligent Systems EECS 467 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-467"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 467
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Autonomous Robotics Design Experience
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Intelligent Systems EECS 486 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-486"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 486
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Information Retrieval and Web Search
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Intelligent Systems EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Robotics and Vision EECS 442 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-442"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 442
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Vision
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Robotics and Vision EECS 445 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-445"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 445
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Robotics and Vision EECS 467 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-467"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 467
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Autonomous Robotics Design Experience
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Robotics and Vision EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Robotics and Vision EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Robotics and Vision EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Robotics and Vision EECS 542 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-542"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 542
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Advanced Topics in Computer Vision
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Robotics and Vision EECS 567 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-567"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 567
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Robotic Kinematics and Dynamics
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Security EECS 388 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-388"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 388
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Computer Security
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Security EECS 475 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-475"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 475
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Security EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Security EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Security EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Security EECS 575 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-575"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 575
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Advanced Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Development EECS 477 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-477"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 477
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Development EECS 481 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-481"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 481
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Software Engineering
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Development EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Development EECS 482 render 2`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Development EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Development EECS 484 render 2`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Development EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Software Engineering
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Development EECS 485 render 2`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Development EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Development EECS 494 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-494"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 494
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Game Design and Development
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Systems EECS 388 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-388"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 388
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Computer Security
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Systems EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Systems EECS 483 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-483"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 483
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Compiler Construction
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Systems EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Systems EECS 489 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-489"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 489
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Networks
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Software Systems EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation EECS 475 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-475"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 475
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation EECS 475 render 2`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-475"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 475
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation EECS 477 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-477"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 477
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation EECS 477 render 2`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-477"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 477
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation EECS 490 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-490"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 490
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Programming Language
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation EECS 550 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-550"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 550
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Information Theory
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation EECS 574 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-574"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 574
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computational Complexity
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation EECS 575 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-575"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 575
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Advanced Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation MATH 412 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-math-412"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      MATH 412
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Modern Algebra
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation MATH 465 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-math-465"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      MATH 465
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Combinatorics
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Theory of Computation STATS 426 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-stats-426"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      STATS 426
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Theoretical Statistics
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Web Technology and Applications EECS 285 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-285"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 285
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Practical Programming in Java
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Web Technology and Applications EECS 388 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-388"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 388
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Computer Security
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Web Technology and Applications EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Web Technology and Applications EECS 486 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-486"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 486
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Information Retrieval and Web Search
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component ENG and LSA Web Technology and Applications EECS 493 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-493"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 493
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      User Interface Development
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Artificial Intelligence EECS 442 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-442"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 442
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Vision
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Artificial Intelligence EECS 445 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-445"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 445
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Artificial Intelligence EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Artificial Intelligence EECS 489 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-489"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 489
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Networks
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Artificial Intelligence EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Artificial Intelligence EECS 543 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-543"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 543
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      N/A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Knowledge-Based Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Artificial Intelligence EECS 545 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-545"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 545
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Artificial Intelligence EECS 595 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-595"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 595
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Natural Language Processing
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Bioinformatics BIOINF 529 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-bioinf-529"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      BIOINF 529
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Bioinformatics Concepts and Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Bioinformatics BIOLOGY 305 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-biology-305"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      BIOLOGY 305
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Genetics
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Bioinformatics EECS 441 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-441"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 441
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Mobile App Development for Entrepreneurs
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Bioinformatics EECS 445 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-445"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 445
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Bioinformatics EECS 477 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-477"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 477
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Bioinformatics EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Bioinformatics EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Bioinformatics EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Data and Information EECS 445 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-445"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 445
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Data and Information EECS 477 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-477"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 477
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Data and Information EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Data and Information EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Data and Information EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Data and Information EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Economics and Computation ECON 401 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-econ-401"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      ECON 401
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Intermediate Microeconomic Theory
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Economics and Computation ECON 409 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-econ-409"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      ECON 409
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Game Theory
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Economics and Computation ECON 431 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-econ-431"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      ECON 431
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Industrial Organization and Performance
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Economics and Computation ECON 442 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-econ-442"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      ECON 442
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      International Finance
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Economics and Computation EECS 475 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-475"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 475
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Economics and Computation EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Economics and Computation EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Economics and Computation EECS 588 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-588"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 588
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer and Network Security
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Robotics and Vision EECS 442 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-442"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 442
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Vision
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Robotics and Vision EECS 445 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-445"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 445
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Machine Learning
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Robotics and Vision EECS 467 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-467"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 467
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Autonomous Robotics Design Experience
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Robotics and Vision EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Robotics and Vision EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Robotics and Vision EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Robotics and Vision EECS 542 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-542"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 542
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Advanced Topics in Computer Vision
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Robotics and Vision EECS 567 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-567"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 567
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Robotic Kinematics and Dynamics
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Security EECS 388 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-388"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 388
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Computer Security
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Security EECS 475 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-475"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 475
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Security EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Security EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Security EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Security EECS 575 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-575"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 575
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Advanced Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Development EECS 477 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-477"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 477
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Development EECS 481 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-481"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 481
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Software Engineering
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Development EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Development EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Development EECS 485 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-485"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 485
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Web Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Development EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Systems EECS 388 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-388"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 388
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Computer Security
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Systems EECS 482 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-482"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 482
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Operating Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Systems EECS 483 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-483"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 483
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Compiler Construction
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Systems EECS 484 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-484"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 484
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Database Management Systems
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Systems EECS 489 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-489"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 489
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computer Networks
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Software Systems EECS 492 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-492"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 492
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Artificial Intelligence
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Theory of Computation EECS 475 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-475"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 475
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Theory of Computation EECS 477 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-477"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 477
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Algorithms
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Theory of Computation EECS 550 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-550"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 550
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Information Theory
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Theory of Computation EECS 574 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-574"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 574
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Computational Complexity
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Theory of Computation EECS 575 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-eecs-575"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      EECS 575
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Advanced Cryptography
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Theory of Computation MATH 412 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-math-412"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      MATH 412
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Modern Algebra
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Theory of Computation MATH 465 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-math-465"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      MATH 465
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      A-
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Combinatorics
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing Course component LSA Theory of Computation STATS 426 render 1`] = `
+<div
+  class="h-100 justify-content-center row"
+  data-testid="course-stats-426"
+>
+  <div
+    class="mb-auto p-0 text-center row"
+  >
+    <span
+      class="p-0"
+      style="font-size: 20px; font-weight: 500;"
+    >
+      STATS 426
+    </span>
+    <span
+      class="p-0"
+      style="font-size: 14px;"
+    >
+      Median Grade: 
+      B+
+    </span>
+  </div>
+  <div
+    class="text-center py-2 px-auto row"
+  >
+    <p
+      class="m-0 py-0"
+      style="font-size: 18px;"
+    >
+      Introduction to Theoretical Statistics
+    </p>
+  </div>
+</div>
+`;

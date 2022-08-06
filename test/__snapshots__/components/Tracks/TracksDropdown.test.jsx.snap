@@ -1,0 +1,1396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Artificial Intelligence 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Artificial Intelligence
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Artificial Intelligence 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Artificial Intelligence 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Artificial Intelligence
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Bioinformatics 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Bioinformatics
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Bioinformatics 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Bioinformatics 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Bioinformatics
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Computer Hardware 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Computer Hardware
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Computer Hardware 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Computer Hardware 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Computer Hardware
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Computing Infrastructure 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Computing Infrastructure
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Computing Infrastructure 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Computing Infrastructure 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Computing Infrastructure
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Data and Information 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Data and Information
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Data and Information 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Data and Information 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Data and Information
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Economics and Computation 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Economics and Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Economics and Computation 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Economics and Computation 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Economics and Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Intelligent Systems 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Intelligent Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Intelligent Systems 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Intelligent Systems 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Intelligent Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Robotics and Vision 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Robotics and Vision
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Robotics and Vision 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Robotics and Vision 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Robotics and Vision
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Security 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Security
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Security 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Security 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Security
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Software Development 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Software Development 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Software Development 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Software Development 4`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Software Development 5`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Software Development 6`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Software Systems 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Software Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Software Systems 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Software Systems 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Software Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Theory of Computation 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Theory of Computation 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Theory of Computation 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Theory of Computation 4`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Theory of Computation 5`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Theory of Computation 6`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Web Technology and Applications 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Web Technology and Applications
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Web Technology and Applications 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown component for expected data ENG and LSA Web Technology and Applications 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Web Technology and Applications
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Computer Hardware 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Computer Hardware
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Computer Hardware 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Computer Hardware 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Computer Hardware
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Computing Infrastructure 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Computing Infrastructure
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Computing Infrastructure 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Computing Infrastructure 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Computing Infrastructure
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Intelligent Systems 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Intelligent Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Intelligent Systems 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Intelligent Systems 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Intelligent Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Software Development 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Software Development 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Software Development 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Theory of Computation 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Theory of Computation 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Theory of Computation 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Web Technology and Applications 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Web Technology and Applications
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Web Technology and Applications 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG Web Technology and Applications 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Web Technology and Applications
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Artificial Intelligence 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Artificial Intelligence
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Artificial Intelligence 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Artificial Intelligence 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Artificial Intelligence
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Bioinformatics 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Bioinformatics
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Bioinformatics 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Bioinformatics 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Bioinformatics
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Computer Hardware 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Computer Hardware
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Computer Hardware 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Computer Hardware 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Computer Hardware
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Computing Infrastructure 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Computing Infrastructure
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Computing Infrastructure 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Computing Infrastructure 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Computing Infrastructure
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Data and Information 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Data and Information
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Data and Information 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Data and Information 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Data and Information
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Economics and Computation 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Economics and Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Economics and Computation 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Economics and Computation 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Economics and Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Intelligent Systems 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Intelligent Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Intelligent Systems 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Intelligent Systems 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Intelligent Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Robotics and Vision 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Robotics and Vision
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Robotics and Vision 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Robotics and Vision 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Robotics and Vision
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Security 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Security
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Security 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Security 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Security
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Software Development 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Software Development 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Software Development 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Software Development 4`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Software Development 5`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Software Development 6`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Software Systems 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Software Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Software Systems 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Software Systems 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Software Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Theory of Computation 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Theory of Computation 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Theory of Computation 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Theory of Computation 4`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Theory of Computation 5`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Theory of Computation 6`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Web Technology and Applications 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Web Technology and Applications
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Web Technology and Applications 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick ENG and LSA Web Technology and Applications 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: ENG Web Technology and Applications
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Artificial Intelligence 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Artificial Intelligence
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Artificial Intelligence 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Artificial Intelligence 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Artificial Intelligence
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Bioinformatics 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Bioinformatics
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Bioinformatics 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Bioinformatics 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Bioinformatics
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Data and Information 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Data and Information
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Data and Information 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Data and Information 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Data and Information
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Economics and Computation 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Economics and Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Economics and Computation 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Economics and Computation 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Economics and Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Robotics and Vision 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Robotics and Vision
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Robotics and Vision 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Robotics and Vision 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Robotics and Vision
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Security 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Security
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Security 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Security 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Security
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Software Development 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Software Development 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Software Development 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Software Development
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Software Systems 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Software Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Software Systems 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Software Systems 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Software Systems
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Theory of Computation 1`] = `
+<button
+  class="my-1 w-100 btn btn-primary"
+  type="button"
+>
+  Theory of Computation
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Theory of Computation 2`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  No track selected
+</button>
+`;
+
+exports[`Testing TracksDropdown onClick LSA Theory of Computation 3`] = `
+<button
+  class="w-100 btn btn-outline-primary"
+  disabled=""
+  style="font-size: 20px; font-weight: bold; opacity: 1;"
+  type="button"
+>
+  Current track: LSA Theory of Computation
+</button>
+`;

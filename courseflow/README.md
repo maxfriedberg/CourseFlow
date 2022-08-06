@@ -5,20 +5,34 @@
     python3 -m venv env
     source env/bin/activate
     ```
-    NOTE: I think on Windows it might be just 'python' instead of 'python3'
+    NOTE: Windows might be just 'python' instead of 'python3'
 
 2) Install flask
     ```
     pip install flask
     ```
-3) Give the executable permission:
+3) Give the executables permission:
     ```
-    chmod +x run-courseflow.sh
+    chmod +x bin/run-courseflow
+    chmod +x bin/db-reset
     ```
-4) Run the flask app
+4) (Optional) Create global aliases for scripts
     ```
-    ./run-courseflow.sh
+    a) Navigate to courseflow-app/bin
+    b) Run 'sudo ln -s reset-db dbreset' to set alias of 'dbreset'
+    c) Run 'sudo ln -s run-courseflow courseflow' to set alias of 'courseflow'
     ```
+5) Run the flask app
+    a) Option 1
+        ```
+        dbreset
+        courseflow
+        ```
+    b) Option 2
+        ```
+        ./bin/reset-db
+        ./bin/run-courseflow
+        ```
 
 
 # courseflow

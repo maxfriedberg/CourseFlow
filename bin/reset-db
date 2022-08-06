@@ -1,0 +1,121 @@
+#!/bin/bash
+
+COURSEFLOW_SQL=/Users/bjcreal/Desktop/eecs441/courseflow-app/courseflow;
+
+SILENT=0;
+VERBOSE=0;
+if [[ -n "$1" ]]; then
+  if [[ "${1#*.}" == "-s" || "${1#*.}" == "--silent" ]]; then
+    SILENT=1;
+  elif [[ "${1#*.}" == "-v" || "${1#*.}" == "--verbose" ]]; then
+    VERBOSE=1;
+  else
+    echo "Error: unknown flag '$1'";
+    exit 1;
+  fi
+fi
+
+set -Eeuo pipefail
+
+
+if [ -f "$COURSEFLOW_SQL/var/courseflow.sqlite3" ]; then
+  echo "Clearing DB..."
+  rm "$COURSEFLOW_SQL/var/courseflow.sqlite3"
+fi
+
+
+if [[ "$SILENT" == 0 ]]; then
+  echo "Creating tables..."
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/schemas/courseSchema.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- Course tables created"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/schemas/trackSchema.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- Track tables creatd"
+fi
+
+
+if [[ "$SILENT" == 0 ]]; then
+  echo "Loading tracks..."
+fi
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- LSA"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/tracks/lsa.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- ENG"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/tracks/eng.sql";
+
+
+if [[ "$SILENT" == 0 ]]; then
+  echo "Loading courses..."
+fi
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- BIOINF"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/bioinf.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- BIOLOGY"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/biology.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- ECON"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/econ.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- EECS"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/eecs.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- MATH"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/math.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- STATS"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/stats.sql";
+
+
+if [[ "$SILENT" == 0 ]]; then
+  echo "Loading course grades..."
+fi
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- BIOINF"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/medianGrades/bioinf.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- BIOLOGY"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/medianGrades/biology.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- ECON"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/medianGrades/econ.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- EECS"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/medianGrades/eecs.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- MATH"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/medianGrades/math.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- STATS"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/courses/medianGrades/stats.sql";
+
+
+if [[ "$SILENT" == 0 ]]; then
+  echo "Loading track/course links..."
+fi
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- ENG"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/linkTrackCourses/eng.sql";
+if [[ "$VERBOSE" == 1 ]]; then
+  echo "-- LSA"
+fi
+sqlite3 "$COURSEFLOW_SQL/var/courseflow.sqlite3" < "$COURSEFLOW_SQL/sql/data/linkTrackCourses/lsa.sql";

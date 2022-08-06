@@ -1,0 +1,1012 @@
+{
+    "school": "LSA",
+    "tracks": [
+        {
+            "name": "Artificial Intelligence",
+            "info": {
+                "description": "AI is a broadly based multidisciplinary area comprising theoretical, experimental, and applied investigations of intelligent systems.",
+                "requirements": [
+                    "EECS 492",
+                    "EECS 445 or 545",
+                    "one of EECS 442, 543, 545, 595",
+                    "a 4th ULCS of student’s choice."
+                ],
+                "note": "You may take at most one 500-level EECS course for the above requirements."
+            },
+            "course_details": [
+                {
+                    "course": "EECS 492",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Artificial Intelligence",
+                    "description": "Introduction to the core concepts of AI, organized around building computational agents. Emphasizes the application of AI techniques. Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning.",
+                    "prereqs": {
+                        "1": "EECS 281"
+                    }
+                },
+                {
+                    "course": "EECS 445",
+                    "median_grade": "A-",
+                    "workload": "heavy",
+                    "name": "Introduction to Machine Learning",
+                    "description": "Theory and implementation of state of the art machine learning algorithms for large-scale real-world applications. Topics include supervised learning (regression, classification, kernal methods, neural networks, and regularization) and unsupervised learning, (clustering, density estimation, and dimensionality and reduction).",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": [
+                                "MATH 214",
+                                "MATH 217",
+                                "MATH 296",
+                                "MATH 417",
+                                "MATH 419",
+                                "ROB 101"
+                            ]
+                    }
+                },
+                {
+                    "course": "EECS 442",
+                    "median_grade": "A",
+                    "workload": "moderate",
+                    "name": "Computer Vision",
+                    "description": "An introduction to 2D and 3D computer vision. Topics include: camera models, the geometry of multiple views; shape reconstruction methods from visual cues; low-level image processing techniques such as feature detection; high-level vision problems such as object recognition and scene understanding.",
+                    "prereqs": {
+                        "1": [
+                            "GRAD",
+                            {
+                                "1": "EECS 281",
+                                "2": [
+                                    "MATH 214",
+                                    "MATH 217",
+                                    "MATH 296",
+                                    "MATH 417",
+                                    "MATH 419",
+                                    "ROB 101"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 595",
+                    "median_grade": "A",
+                    "workload": "moderate",
+                    "name": "Natural Language Processing",
+                    "description": "Linguistics fundamentals of natural language processing (NLP), part of speech tagging, hidden Markov models, syntax and parsing, lexical semantics, compositional semantics, word sense disambiguation, machine translation. Additional topics such as sentiment analysis, text generation, and deep learning for NLP.",
+                    "prereqs": {
+                        "1": "SENIOR"
+                    }
+                },
+                {
+                    "course": "EECS 489",
+                    "median_grade": "A-",
+                    "workload": "heavy",
+                    "name": "Computer Networks",
+                    "description": "Protocols and architectures of computer networks with a specific focus on the Internet. Topics include socket programming, naming and addressing, video streaming and content distribution, flow and congestion control, routing, and cloud, datacenter, and software-defined networks. Students write several substantial programs implementing protocols at different layers of the network stack.",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": "EECS 370"
+                    }
+                },
+                {
+                    "course": "EECS 484",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Database Management Systems",
+                    "description": "Concepts and methods for the design, creation, query and management of large enterprise databases. Functions and characteristics of the leading database management systems. Query languages such as SQL, forms, embedded SQL, and application development tools. Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "EECS 403",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 545",
+                    "median_grade": "A-",
+                    "workload": "moderate",
+                    "name": "Machine Learning",
+                    "description": "Fundamentals of supervised, unsupervised, and sequential learning, including linear and nonlinear regression, logistic regression, support vector machines and kernel methods, decision trees, ensemble methods, neural networks and deep learning, dimension reduction, clustering, and probabilistic models. Emphasis on implementation and application to real-world data. Includes algorithms and derivations from fundamental principles.",
+                    "prereqs": {
+                        "1": "Coursework in probability, linear algebra, and programming"
+                    }
+                },
+                {
+                    "course": "EECS 543",
+                    "median_grade": "N/A",
+                    "name": "Knowledge-Based Systems",
+                    "description": "Techniques and principles for developing application software based on explicit representation and manipulation of domain knowledge, as applied to areas such as pattern matching, problem-solving, automated planning, and natural-language processing. Discussion of major programming approaches used in the design and development of knowledge-based systems.",
+                    "prereqs": {}
+                }
+            ]
+        },
+        {
+            "name": "Bioinformatics",
+            "info": {
+                "description": "Computation plays an increasingly important role in modern biology. This is an interdisciplinary track.",
+                "requirements": [
+                    "at least two of: EECS 445, 477, 484, 485, 492",
+                    "a 3rd  ULCS course of student’s choice",
+                    "BIOINF 529",
+                    "BIOLOGY 305 or MCDB 310"
+                ],
+                "note": "This track is not open to Biology Majors."
+            },
+            "course_details": [
+                {
+                    "course": "EECS 492",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Artificial Intelligence",
+                    "description": "Introduction to the core concepts of AI, organized around building computational agents. Emphasizes the application of AI techniques. Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning.",
+                    "prereqs": {
+                        "1": "EECS 281"
+                    }
+                },
+                {
+                    "course": "EECS 445",
+                    "median_grade": "A-",
+                    "workload": "heavy",
+                    "name": "Introduction to Machine Learning",
+                    "description": "Theory and implementation of state of the art machine learning algorithms for large-scale real-world applications. Topics include supervised learning (regression, classification, kernal methods, neural networks, and regularization) and unsupervised learning, (clustering, density estimation, and dimensionality and reduction).",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": [
+                                "MATH 214",
+                                "MATH 217",
+                                "MATH 296",
+                                "MATH 417",
+                                "MATH 419",
+                                "ROB 101"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 477",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Algorithms",
+                    "description": "Fundamental techniques for designing efficient algorithms and basic mathematical methods for analyzing their performance. Paradigms for algorithm design: divide-and-conquer, greedy methods, graph search techniques, dynamic programming. Design of efficient data structures and analysis of the running time and space requirements of algorithms in the worst and average cases.",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": "EECS 376"
+                    }
+                },
+                {
+                    "course": "EECS 485",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Web Systems",
+                    "description": "Concepts surrounding web systems, applications, and internet scale distributed systems. Topics covered include client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems. The course has substantial projects involving development of web applications and web systems.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 441",
+                    "median_grade": "A",
+                    "workload": "easy",
+                    "name": "Mobile App Development for Entrepreneurs",
+                    "description": "Best practices in the software engineering of mobile applications and best practices of software entrepreneurs in the design, production and marketing of mobile apps. Students will engage in the hands-on practice of entrepreneurship by actually inventing, building, and marketing their own mobile apps.",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": "SENIOR",
+                        "3": "4 ULCS CREDITS"
+                    }
+                },
+                {
+                    "course": "EECS 484",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Database Management Systems",
+                    "description": "Concepts and methods for the design, creation, query and management of large enterprise databases. Functions and characteristics of the leading database management systems. Query languages such as SQL, forms, embedded SQL, and application development tools. Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "EECS 403",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "BIOINF 529",
+                    "median_grade": "A+",
+                    "workload": "moderate",
+                    "name": "Bioinformatics Concepts and Algorithms",
+                    "description": "This course will introduce students to common topics in bioinformatics as well as corresponding computational approaches in those areas. Students will learn how to implement and apply various algorithms and statistical models to solve challenging problems and will also build a foundation for developing tools for future technologies.",
+                    "prereqs": {
+                        "1": "BIOINF 575"
+                    }
+                },
+                {
+                    "course": "BIOLOGY 305",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Genetics",
+                    "description": "This introduction to genetics includes the following sections: DNA and chromosomes; gene transmission in Eukaryotes; linkage and recombination; genes and enzymes, the genetic code, and mutation; recombinant DNA, RFLP mapping, the Human Genome Project; gene regulation, transposons; population genetics; and quantitative genetics.",
+                    "prereqs": {
+                        "1": [
+                            "BIOLOGY 192",
+                            "BIOLOGY 195",
+                            {
+                                "1": "BIOLOGY 171",
+                                "2": [
+                                        "BIOLOGY 172",
+                                        "BIOLOGY 174"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Data and Information",
+            "info": {
+                "description": "Fast information storage and retrieval are crucial to many computer applications, and manipulating large data collections on servers or networks pose difficult challenges for computer professionals.",
+                "requirements": [
+                    "EECS 445",
+                    "EECS 484",
+                    "one of EECS 477, 482, 485, 492",
+                    "a 4th ULCS of student’s choice"
+                ]
+            },
+            "course_details": [
+                {
+                    "course": "EECS 492",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Artificial Intelligence",
+                    "description": "Introduction to the core concepts of AI, organized around building computational agents. Emphasizes the application of AI techniques. Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning.",
+                    "prereqs": {
+                        "1": "EECS 281"
+                    }
+                },
+                {
+                    "course": "EECS 445",
+                    "median_grade": "A-",
+                    "workload": "heavy",
+                    "name": "Introduction to Machine Learning",
+                    "description": "Theory and implementation of state of the art machine learning algorithms for large-scale real-world applications. Topics include supervised learning (regression, classification, kernal methods, neural networks, and regularization) and unsupervised learning, (clustering, density estimation, and dimensionality and reduction).",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": [
+                                "MATH 214",
+                                "MATH 217",
+                                "MATH 296",
+                                "MATH 417",
+                                "MATH 419",
+                                "ROB 101"
+                            ]
+                    }
+                },
+                {
+                    "course": "EECS 477",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Algorithms",
+                    "description": "Fundamental techniques for designing efficient algorithms and basic mathematical methods for analyzing their performance. Paradigms for algorithm design: divide-and-conquer, greedy methods, graph search techniques, dynamic programming. Design of efficient data structures and analysis of the running time and space requirements of algorithms in the worst and average cases.",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": "EECS 376"
+                    }
+                },
+                {
+                    "course": "EECS 485",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Web Systems",
+                    "description": "Concepts surrounding web systems, applications, and internet scale distributed systems. Topics covered include client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems. The course has substantial projects involving development of web applications and web systems.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 482",
+                    "median_grade": "B+",
+                    "workload": "extremely heavy",
+                    "name": "Introduction to Operating Systems",
+                    "description": "Operating system design and implementation: multi-tasking; concurrency and synchronization; inter-process communication; deadlock; scheduling; resource allocation; memory and storage management; input-output; file systems; protection and security. Students write several substantial programs dealing with concurrency and synchronization in a multi-task environment, with file systems, and with memory management.",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": "EECS 370"
+                    }
+                },
+                {
+                    "course": "EECS 484",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Database Management Systems",
+                    "description": "Concepts and methods for the design, creation, query and management of large enterprise databases. Functions and characteristics of the leading database management systems. Query languages such as SQL, forms, embedded SQL, and application development tools. Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "EECS 403",
+                            "GRAD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Economics and Computation",
+            "info": {
+                "description": "As social and market interactions become more computational, computer science has adopted more traditional economic concepts such as decentralized decision-making and allocation of resources. This is an interdisciplinary track.",
+                "requirements": [
+                    "EECS 492",
+                    "at least two of: EECS 475, 485, 588",
+                    "ECON 401",
+                    "one of: ECON 406, 409, 431, 442"
+                ],
+                "note": "You may take at most one 500-level EECS course for the above requirements This track is not open to Economics Majors."
+            },
+            "course_details": [
+                {
+                    "course": "EECS 492",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Artificial Intelligence",
+                    "description": "Introduction to the core concepts of AI, organized around building computational agents. Emphasizes the application of AI techniques. Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning.",
+                    "prereqs": {
+                        "1": "EECS 281"
+                    }
+                },
+                {
+                    "course": "ECON 409",
+                    "median_grade": "A-",
+                    "workload": "easy",
+                    "name": "Game Theory",
+                    "description": "The same principles that govern the strategic interaction of players in parlor games like Chess or Poker turn out to be widely applicable to a whole range of problems in economics, biology, and political science. This course introduces the subject of game theory, exploring the beginnings of the subject using simple illustrative examples, such as bargaining, auctions, duopolistic competition, and wars of attrition.",
+                    "prereqs": {
+                        "1": [
+                            "ECON 401",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 475",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Cryptography",
+                    "description": "Covers fundamental concepts, algorithms, and protocols in cryptography. Topics: ancient ciphers, Shannon theory, symmetric encryption, public key encryption, hash functions, digital signatures, key distribution. Highlights AES, RSA, Discrete Log, Elliptic Curves. Emphasizes rigorous mathematical study in terms of algorithmic complexity. Includes necessary background from algorithms, probability, number theory, and algebra.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 203",
+                            "MATH 312",
+                            "MATH 412"
+                        ],
+                        "2": [
+                            "EECS 180",
+                            "EECS 183",
+                            "EECS 280"
+                        ],
+                        "3": "EECS 376"
+                    }
+                },
+                {
+                    "course": "EECS 485",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Web Systems",
+                    "description": "Concepts surrounding web systems, applications, and internet scale distributed systems. Topics covered include client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems. The course has substantial projects involving development of web applications and web systems.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "ECON 401",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Intermediate Microeconomic Theory",
+                    "description": "The subject of this course are households' and firms' economic choices, and the way in which these choices interact in markets. We also discuss ways in which the performance of markets can be evaluated normatively. The course emphasizes theory over data. Empirical methods are taught in other courses. The theories developed in this course form the basis of much empirical work. We use mathematical tools such as graphs, equations, and calculus.",
+                    "prereqs": {
+                        "1": [
+                            "MATH 115",
+                            "MATH 116",
+                            "MATH 121",
+                            "MATH 156",
+                            "MATH 176",
+                            "MATH 185",
+                            "MATH 186",
+                            "MATH 215",
+                            "MATH 285",
+                            "MATH 295",
+                            "MATH 296"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 588",
+                    "median_grade": "A",
+                    "workload": "easy",
+                    "name": "Computer and Network Security",
+                    "description": "Survey of advanced topics and research issues in computer and network security. Topics will be drawn from a variety of areas of such as mandatory and discretionary security policies, secure storage, security darnels, trust management, preventing software vulnerabilities, applied cryptography, network security.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 482",
+                            "EECS 489"
+                        ]
+                    }
+                },
+                {
+                    "course": "ECON 442",
+                    "median_grade": "A-",
+                    "workload": "easy",
+                    "name": "International Finance",
+                    "description": "This course develops macroeconomic analysis and issues for an open economy. Topics include: the foreign exchange market and the balance of payments; the income-absorption and monetary-asset market approaches to national income determination and the balance of payments; macro stabilization policies and central bank intervention under fixed and floating exchange rates; Eurocurrency markets; monetary integration, and reform of the international monetary system.",
+                    "prereqs": {
+                        "1": [
+                            "ECON 402",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "ECON 431",
+                    "median_grade": "B",
+                    "workload": "easy",
+                    "name": "Industrial Organization and Performance",
+                    "prereqs": {
+                        "1": [
+                            "ECON 401",
+                            "GRAD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Robotics and Vision",
+            "info": {
+                "description": "Until recently most robots were stationary manufacturing devices, but they are rapidly evolving into mobile information gathering and decision-making platforms, with vision being perhaps their most important information gathering capability.",
+                "requirements": [
+                    "EECS 467",
+                    "EECS 442",
+                    "one of: EECS 492, EECS 445, 542, 543, 567, 568",
+                    "a 4th ULCS course of student’s choice"
+                ]
+            },
+            "course_details": [
+                {
+                    "course": "EECS 492",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Artificial Intelligence",
+                    "description": "Introduction to the core concepts of AI, organized around building computational agents. Emphasizes the application of AI techniques. Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning.",
+                    "prereqs": {
+                        "1": "EECS 281"
+                    }
+                },
+                {
+                    "course": "EECS 445",
+                    "median_grade": "A-",
+                    "workload": "heavy",
+                    "name": "Introduction to Machine Learning",
+                    "description": "Theory and implementation of state of the art machine learning algorithms for large-scale real-world applications. Topics include supervised learning (regression, classification, kernal methods, neural networks, and regularization) and unsupervised learning, (clustering, density estimation, and dimensionality and reduction).",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": [
+                                "MATH 214",
+                                "MATH 217",
+                                "MATH 296",
+                                "MATH 417",
+                                "MATH 419",
+                                "ROB 101"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 467",
+                    "median_grade": "A",
+                    "workload": "heavy",
+                    "name": "Autonomous Robotics Design Experience",
+                    "description": "Software methods and implementation for robot perception, world mapping, and control, using physical robots. Topics include: sensor, sensor processing, control, motion planning, localization and mapping, and forward and inverse kinematics. Multiple team projects, culminating in a major design experience (MDE) project.",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": [
+                            "MATH 214",
+                            "MATH 217",
+                            "MATH 296",
+                            "MATH 417",
+                            "MATH 419",
+                            "ROB 101"
+                        ],
+                        "3": [
+                            "EECS 367",
+                            "EECS 373"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 485",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Web Systems",
+                    "description": "Concepts surrounding web systems, applications, and internet scale distributed systems. Topics covered include client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems. The course has substantial projects involving development of web applications and web systems.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 442",
+                    "median_grade": "A",
+                    "workload": "easy",
+                    "name": "Computer Vision",
+                    "description": "An introduction to 2D and 3D computer vision. Topics include: camera models, the geometry of multiple views; shape reconstruction methods from visual cues; low-level image processing techniques such as feature detection; high-level vision problems such as object recognition and scene understanding.",
+                    "prereqs": {
+                        "1": [
+                            "GRAD",
+                            {
+                                "1": "EECS 281",
+                                "2": [
+                                    "MATH 214",
+                                    "MATH 217",
+                                    "MATH 296",
+                                    "MATH 417",
+                                    "MATH 419",
+                                    "ROB 101"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 484",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Database Management Systems",
+                    "description": "Concepts and methods for the design, creation, query and management of large enterprise databases. Functions and characteristics of the leading database management systems. Query languages such as SQL, forms, embedded SQL, and application development tools. Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "EECS 403",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 542",
+                    "median_grade": "A",
+                    "workload": "moderate",
+                    "name": "Advanced Topics in Computer Vision",
+                    "description": "The course discusses advanced topics and current research in computer vision. Topics will be selected from various subareas such as physics based vision, geometry, motion and tracking, reconstruction, grouping and segmentation, recognition, activity and scene understanding, statistical methods and learning, systems and applications.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 442",
+                            "EECS 504"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 567",
+                    "median_grade": "A",
+                    "workload": "moderate",
+                    "name": "Robotic Kinematics and Dynamics",
+                    "description": "Geometry, kinematics, differential kinematics, dynamics, and control of robot manipulators. The mathematical tools required to describe spatial motion of a rigid body will be presented in full. Motion planning including obstacle avoidance is also covered.",
+                    "prereqs": {
+                        "1": [
+                            "GRAD",
+                            "PERMISSION"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Security",
+            "info": {
+                "description": "Security for hardware, software, and networked systems is one of the fastest growing areas of computer science.",
+                "requirements": [
+                    "EECS 388",
+                    "EECS 475 or 575",
+                    "one of: EECS 482, 484, or 485",
+                    "a 4th ULCS course of student’s choice"
+                ]
+            },
+            "course_details": [
+                {
+                    "course": "EECS 388",
+                    "median_grade": "A-",
+                    "workload": "moderate",
+                    "name": "Introduction to Computer Security",
+                    "description": "This course introduces the principles and practices of computer security as applied to software, host systems, and networks. It covers the foundations of building, using, and managing secure systems. Topics include standard cryptographic functions and protocols, threats and defenses for real-world systems, incident responses, and computer forensics. There will be homework exercises, programming projects, and a final exam.",
+                    "prereqs": {
+                        "1": "EECS 281"
+                    }
+                },
+                {
+                    "course": "EECS 475",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Cryptography",
+                    "description": "Covers fundamental concepts, algorithms, and protocols in cryptography. Topics: ancient ciphers, Shannon theory, symmetric encryption, public key encryption, hash functions, digital signatures, key distribution. Highlights AES, RSA, Discrete Log, Elliptic Curves. Emphasizes rigorous mathematical study in terms of algorithmic complexity. Includes necessary background from algorithms, probability, number theory, and algebra.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 203",
+                            "MATH 312",
+                            "MATH 412"
+                        ],
+                        "2": [
+                            "EECS 180",
+                            "EECS 183",
+                            "EECS 280"
+                        ],
+                        "3": "EECS 376"
+                    }
+                },
+                {
+                    "course": "EECS 485",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Web Systems",
+                    "description": "Concepts surrounding web systems, applications, and internet scale distributed systems. Topics covered include client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems. The course has substantial projects involving development of web applications and web systems.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 482",
+                    "median_grade": "B+",
+                    "workload": "heavy",
+                    "name": "Introduction to Operating Systems",
+                    "description": "Operating system design and implementation: multi-tasking; concurrency and synchronization; inter-process communication; deadlock; scheduling; resource allocation; memory and storage management; input-output; file systems; protection and security. Students write several substantial programs dealing with concurrency and synchronization in a multi-task environment, with file systems, and with memory management.",
+                    "prereqs": {
+                        "1": [
+                            {
+                                "1": "EECS 281",
+                                "2": "EECS 370"
+                            },
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 484",
+                    "median_grade": "A-",
+                    "workload": "moderate",
+                    "name": "Database Management Systems",
+                    "description": "Concepts and methods for the design, creation, query and management of large enterprise databases. Functions and characteristics of the leading database management systems. Query languages such as SQL, forms, embedded SQL, and application development tools. Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "EECS 403",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 575",
+                    "median_grade": "A-",
+                    "workload": "moderate",
+                    "name": "Advanced Cryptography",
+                    "description": "A rigorous introduction to the design of cryptosystems and to cryptanalysis. Topics include cryptanalysis o classical cryptosystems; theoretical analysis of one-way functions; DES and differential cryptanalysis; the RSA cryptosystem; EIGamal, elliptic, hyper elliptic and hidden monomial cryptosystems; attacks on signature schemes, identification schemes and authentication codes; secret sharing; and zero knowledge.",
+                    "prereqs": {
+                        "1": "EECS 203 or equivalent. EECS 574 recommended"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Software Development",
+            "info": {
+                "description": "Designing and developing large software systems is a formidable engineering challenge and is the primary enterprise of the software industry.",
+                "requirements": [
+                    "EECS 481",
+                    "EECS 477",
+                    "EECS 485",
+                    "a 4th ULCS course of student’s choice"
+                ]
+            },
+            "course_details": [
+                {
+                    "course": "EECS 492",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Artificial Intelligence",
+                    "description": "Introduction to the core concepts of AI, organized around building computational agents. Emphasizes the application of AI techniques. Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning.",
+                    "prereqs": {
+                        "1": "EECS 281"
+                    }
+                },
+                {
+                    "course": "EECS 481",
+                    "median_grade": "A-",
+                    "workload": "moderate",
+                    "name": "Software Engineering",
+                    "description": "Pragmatic aspects of the production of software systems, dealing with structuring principles, design methodologies and informal analysis. Emphasis is given to development of large, complex software systems. A term project usually required.",
+                    "prereqs": {
+                        "1": "EECS 281"
+                    }
+                },
+                {
+                    "course": "EECS 477",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Algorithms",
+                    "description": "Fundamental techniques for designing efficient algorithms and basic mathematical methods for analyzing their performance. Paradigms for algorithm design: divide-and-conquer, greedy methods, graph search techniques, dynamic programming. Design of efficient data structures and analysis of the running time and space requirements of algorithms in the worst and average cases.",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": "EECS 376"
+                    }
+                },
+                {
+                    "course": "EECS 485",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Web Systems",
+                    "description": "Concepts surrounding web systems, applications, and internet scale distributed systems. Topics covered include client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems. The course has substantial projects involving development of web applications and web systems.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 482",
+                    "median_grade": "B+",
+                    "workload": "extremely heavy",
+                    "name": "Introduction to Operating Systems",
+                    "description": "Operating system design and implementation: multi-tasking; concurrency and synchronization; inter-process communication; deadlock; scheduling; resource allocation; memory and storage management; input-output; file systems; protection and security. Students write several substantial programs dealing with concurrency and synchronization in a multi-task environment, with file systems, and with memory management.",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": "EECS 370"
+                    }
+                },
+                {
+                    "course": "EECS 484",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Database Management Systems",
+                    "description": "Concepts and methods for the design, creation, query and management of large enterprise databases. Functions and characteristics of the leading database management systems. Query languages such as SQL, forms, embedded SQL, and application development tools. Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "EECS 403",
+                            "GRAD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Software Systems",
+            "info": {
+                "description": "Software systems are the tools and applications we use when we compute.",
+                "requirements": [
+                    "at least three of: EECS 388, 482, 483, 484, 489",
+                    "a 4th ULCS course of student’s choice"
+                ]
+            },
+            "course_details": [
+                {
+                    "course": "EECS 492",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Artificial Intelligence",
+                    "description": "Introduction to the core concepts of AI, organized around building computational agents. Emphasizes the application of AI techniques. Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning.",
+                    "prereqs": {
+                        "1": "EECS 281"
+                    }
+                },
+                {
+                    "course": "EECS 483",
+                    "median_grade": "A",
+                    "workload": "heavy",
+                    "name": "Compiler Construction",
+                    "description": "Introduction to compiler construction. Topics covered will include the following: lexical scanning, parsing (top-down and bottom-up), abstract syntax trees, semantic analysis, code generation and optimization. Students will build a working compiler for a high-level programming language.",
+                    "prereqs": {
+                        "1": [
+                            {
+                                "1": "EECS 281",
+                                "2": "EECS 370"
+                            },
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 388",
+                    "median_grade": "A-",
+                    "workload": "moderate",
+                    "name": "Introduction to Computer Security",
+                    "description": "This course introduces the principles and practices of computer security as applied to software, host systems, and networks. It covers the foundations of building, using, and managing secure systems. Topics include standard cryptographic functions and protocols, threats and defenses for real-world systems, incident responses, and computer forensics. There will be homework exercises, programming projects, and a final exam.",
+                    "prereqs": {
+                        "1": "EECS 281"
+                    }
+                },
+                {
+                    "course": "EECS 489",
+                    "median_grade": "A-",
+                    "workload": "heavy",
+                    "name": "Computer Networks",
+                    "description": "Protocols and architectures of computer networks with a specific focus on the Internet. Topics include socket programming, naming and addressing, video streaming and content distribution, flow and congestion control, routing, and cloud, datacenter, and software-defined networks. Students write several substantial programs implementing protocols at different layers of the network stack.",
+                    "prereqs": {
+                        "1": [
+                            {
+                                "1": "EECS 281",
+                                "2": "EECS 370"
+                            },
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 482",
+                    "median_grade": "B+",
+                    "workload": "extremely heavy",
+                    "name": "Introduction to Operating Systems",
+                    "description": "Operating system design and implementation: multi-tasking; concurrency and synchronization; inter-process communication; deadlock; scheduling; resource allocation; memory and storage management; input-output; file systems; protection and security. Students write several substantial programs dealing with concurrency and synchronization in a multi-task environment, with file systems, and with memory management.",
+                    "prereqs": {
+                        "1": [
+                            {
+                                "1": "EECS 281",
+                                "2": "EECS 370"
+                            },
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 484",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Database Management Systems",
+                    "description": "Concepts and methods for the design, creation, query and management of large enterprise databases. Functions and characteristics of the leading database management systems. Query languages such as SQL, forms, embedded SQL, and application development tools. Database design, integrity, normalization, access methods, query optimization, transaction management and currency control and recovery.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 281",
+                            "EECS 403",
+                            "GRAD"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Theory of Computation",
+            "info": {
+                "description": "Research on mathematical foundations has enormously influenced the development of computer science, yielding advances in data management, communications, security, and may other areas. This is an interdisciplinary track.",
+                "requirements": [
+                    "EECS 477",
+                    "EECS 445 or 475",
+                    "one of: EECS 574, 575, 586",
+                    "two of the following: Math 412, 465, 425, 475, Stats 426, IOE 510, 512, 518, and EECS 550"
+                ],
+                "note": "This track is not open to Math Majors."
+            },
+            "course_details": [
+                {
+                    "course": "EECS 475",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Cryptography",
+                    "description": "Covers fundamental concepts, algorithms, and protocols in cryptography. Topics: ancient ciphers, Shannon theory, symmetric encryption, public key encryption, hash functions, digital signatures, key distribution. Highlights AES, RSA, Discrete Log, Elliptic Curves. Emphasizes rigorous mathematical study in terms of algorithmic complexity. Includes necessary background from algorithms, probability, number theory, and algebra.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 203",
+                            "MATH 312",
+                            "MATH 412"
+                        ],
+                        "2": [
+                            "EECS 180",
+                            "EECS 183",
+                            "EECS 280"
+                        ],
+                        "3": "EECS 376"
+                    }
+                },
+                {
+                    "course": "EECS 477",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Algorithms",
+                    "description": "Fundamental techniques for designing efficient algorithms and basic mathematical methods for analyzing their performance. Paradigms for algorithm design: divide-and-conquer, greedy methods, graph search techniques, dynamic programming. Design of efficient data structures and analysis of the running time and space requirements of algorithms in the worst and average cases.",
+                    "prereqs": {
+                        "1": "EECS 281",
+                        "2": "EECS 376"
+                    }
+                },
+                {
+                    "course": "STATS 426",
+                    "median_grade": "B+",
+                    "workload": "moderate",
+                    "name": "Introduction to Theoretical Statistics",
+                    "description": "An introduction to theoretical statistics for students with a background in probability. Probability models for experimental and observational data, normal sampling theory, likelihood-based and Bayesian approaches to point estimation, confidence intervals, tests of hypotheses, and an introduction to regression and the analysis of variance. This course serves as a prerequisite for many graduate-level statistics courses.",
+                    "prereqs": {
+                        "1": [
+                            "STATS 425/MATH 425",
+                            "STATS 412"
+                        ],
+                        "2": [
+                            "MATH 214",
+                            "MATH 217"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 574",
+                    "median_grade": "A-",
+                    "workload": "easy",
+                    "name": "Computational Complexity",
+                    "description": "Fundamentals of the theory of computation and complexity theory. Computability, undecidability, and logic. Relations between complexity classes, NP- completeness, P-completeness, and randomized computation. Applications in selected areas such as cryptography, logic programming, theorem proving, approximation of optimization problems, or parallel computing.",
+                    "prereqs": {
+                        "1": [
+                            "EECS 376",
+                            "GRAD"
+                        ]
+                    }
+                },
+                {
+                    "course": "MATH 412",
+                    "median_grade": "A-",
+                    "workload": "moderate",
+                    "name": "Introduction to Modern Algebra",
+                    "description": "The initial topics include ones common to every branch of mathematics: sets, functions (mappings), relations, and the common number systems (integers, rational, real and complex numbers). These are then applied to the study of particular types of mathematical structures: groups, rings, and fields).",
+                    "prereqs": {
+                        "1": [
+                            "MATH 215",
+                            "MATH 255",
+                            "MATH 285"
+                        ],
+                        "2": "MATH 217",
+                        "3": "Only 1 credit after MATH 312"
+                    }
+                },
+                {
+                    "course": "EECS 550",
+                    "median_grade": "A",
+                    "workload": "moderate",
+                    "name": "Information Theory",
+                    "description": "Measures of information, such as entropy, conditional entropy, mutual and directed information and Kullback-Leibler divergence; fundamental limits to the performance of communication systems, including source coding (data compression) and channel coding (reliable transmission through noisy media); elementary source and channel coding techniques; information theoretic bounds on the performance of estimation/decision systems.",
+                    "prereqs": {
+                        "1": "EECS 501"
+                    }
+                },
+                {
+                    "course": "MATH 465",
+                    "median_grade": "A-",
+                    "workload": "moderate",
+                    "name": "Introduction to Combinatorics",
+                    "description": "An introduction to combinatorics, covering basic counting techniques (inclusion-exclusion, permutations and combinations, generating functions) and fundamentals of graph theory (paths and cycles, trees, graph coloring). Additional topics may include partially ordered sets, recurrence relations, partitions, matching theory, and combinatorial algorithms.",
+                    "prereqs": {
+                        "1": [
+                            "MATH 214",
+                            "MATH 217",
+                            "MATH 256",
+                            "MATH 286",
+                            "MATH 296",
+                            "MATH 417",
+                            "MATH 419"
+                        ]
+                    }
+                },
+                {
+                    "course": "EECS 575",
+                    "median_grade": "A-",
+                    "workload": "moderate",
+                    "name": "Advanced Cryptography",
+                    "description": "A rigorous introduction to the design of cryptosystems and to cryptanalysis. Topics include cryptanalysis o classical cryptosystems; theoretical analysis of one-way functions; DES and differential cryptanalysis; the RSA cryptosystem; EIGamal, elliptic, hyper elliptic and hidden monomial cryptosystems; attacks on signature schemes, identification schemes and authentication codes; secret sharing; and zero knowledge.",
+                    "prereqs": {
+                        "1": "EECS 203 or equivalent. EECS 574 recommended"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Workload card Easy render 1`] = `
+<div
+  class="h-100 w-100 border border-1 rounded-3 card"
+  data-testid="workload-card"
+>
+  <div
+    class="rounded-top-1 card-header"
+    style="width: 100%; height: 12px; padding: 0px; background-color: grey;"
+  />
+  <div
+    class="d-flex align-items-center justify-content-center text-center p-1 card-body"
+    style="font-size: 11px;"
+  />
+</div>
+`;
+
+exports[`Testing Workload card Extremely Heavy render 1`] = `
+<div
+  class="h-100 w-100 border border-1 rounded-3 card"
+  data-testid="workload-card"
+>
+  <div
+    class="rounded-top-1 card-header"
+    style="width: 100%; height: 12px; padding: 0px; background-color: grey;"
+  />
+  <div
+    class="d-flex align-items-center justify-content-center text-center p-1 card-body"
+    style="font-size: 11px;"
+  />
+</div>
+`;
+
+exports[`Testing Workload card Heavy render 1`] = `
+<div
+  class="h-100 w-100 border border-1 rounded-3 card"
+  data-testid="workload-card"
+>
+  <div
+    class="rounded-top-1 card-header"
+    style="width: 100%; height: 12px; padding: 0px; background-color: grey;"
+  />
+  <div
+    class="d-flex align-items-center justify-content-center text-center p-1 card-body"
+    style="font-size: 11px;"
+  />
+</div>
+`;
+
+exports[`Testing Workload card Moderate render 1`] = `
+<div
+  class="h-100 w-100 border border-1 rounded-3 card"
+  data-testid="workload-card"
+>
+  <div
+    class="rounded-top-1 card-header"
+    style="width: 100%; height: 12px; padding: 0px; background-color: grey;"
+  />
+  <div
+    class="d-flex align-items-center justify-content-center text-center p-1 card-body"
+    style="font-size: 11px;"
+  />
+</div>
+`;
+
+exports[`Testing Workload card No Data (explicit) render 1`] = `
+<div
+  class="h-100 w-100 border border-1 rounded-3 card"
+  data-testid="workload-card"
+>
+  <div
+    class="rounded-top-1 card-header"
+    style="width: 100%; height: 12px; padding: 0px; background-color: grey;"
+  />
+  <div
+    class="d-flex align-items-center justify-content-center text-center p-1 card-body"
+    style="font-size: 11px;"
+  />
+</div>
+`;
+
+exports[`Testing Workload card No Data (implicit) render with no props 1`] = `
+<div
+  class="h-100 w-100 border border-1 rounded-3 card"
+  data-testid="workload-card"
+>
+  <div
+    class="rounded-top-1 card-header"
+    style="width: 100%; height: 12px; padding: 0px; background-color: grey;"
+  />
+  <div
+    class="d-flex align-items-center justify-content-center text-center p-1 card-body"
+    style="font-size: 11px;"
+  />
+</div>
+`;
+
+exports[`Testing Workload card No Data (implicit) render with onClick 1`] = `
+<div
+  class="h-100 w-100 border border-1 rounded-3 card"
+  data-testid="workload-card"
+>
+  <div
+    class="rounded-top-1 card-header"
+    style="width: 100%; height: 12px; padding: 0px; background-color: grey;"
+  />
+  <div
+    class="d-flex align-items-center justify-content-center text-center p-1 card-body"
+    style="font-size: 11px;"
+  />
+</div>
+`;

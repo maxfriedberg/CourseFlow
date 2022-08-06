@@ -1,0 +1,492 @@
+{
+    "ENG": [
+      {
+          "name": "Computer Hardware",
+          "info": {
+              "requirements": [
+                  "EECS 270",
+                  "EECS 373",
+                  "EECS 427",
+                  "EECS 470",
+                  "EECS 478"
+              ]
+          },
+          "course_details": [
+              {
+                  "course": "EECS 270",
+                  "median_grade": "B+",
+                  "workload": "moderate",
+                  "name": "Introduction to Logic Design",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "EECS 180",
+                          "EECS 183",
+                          "ENGR 101",
+                          "ENGR 151"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 373",
+                  "median_grade": "A-",
+                  "workload": "heavy",
+                  "name": "Introduction to Embedded Systems Design",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "EECS 270",
+                          "CMPTRSC 270"
+                      ],
+                      "2": [
+                          "EECS 370",
+                          "CMPTRSC 370"
+                      ],
+                      "3": "Junior or above"
+                  }
+              },
+              {
+                  "course": "EECS 427",
+                  "median_grade": "A",
+                  "workload": "extremely heavy",
+                  "name": "Very Large Scale Integrated Design I",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          {
+                              "1": "EECS 270",
+                              "2": "EECS 312"
+                          },
+                          "GRAD"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 470",
+                  "median_grade": "A-",
+                  "workload": "extremely heavy",
+                  "name": "Computer Architecture",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          {
+                              "1": [
+                                  "EECS 270",
+                                  "CMPTRSC 270"
+                              ],
+                              "2": [
+                                  "EECS 370",
+                                  "CMPTRSC 370"
+                              ]
+                          },
+                          "GRAD"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 478",
+                  "median_grade": "A-",
+                  "workload": "moderate",
+                  "name": "Logic Circuit Synthesis and Optimization",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          {
+                              "1": [
+                                  "EECS 203",
+                                  "EECS 303",
+                                  "CMPTRSC 203",
+                                  "CMPTRSC 303"
+                              ],
+                              "2": [
+                                  "EECS 270",
+                                  "CMPTRSC 270"
+                              ],
+                              "3": "SENIOR"
+                          },
+                          "GRAD"
+                      ]
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Computing Infrastructure",
+          "info": {
+              "requirements": [
+                  "EECS 482",
+                  "EECS 483",
+                  "EECS 484",
+                  "EECS 489",
+                  "EECS 491"
+              ]
+          },
+          "course_details": [
+              {
+                  "course": "EECS 491",
+                  "median_grade": "B+",
+                  "workload": "heavy",
+                  "name": "Introduction to Distributed Systems",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "EECS 482",
+                          "GRAD"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 482",
+                  "median_grade": "B+",
+                  "workload": "extremely heavy",
+                  "name": "Introduction to Operating Systems",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          {
+                              "1": "EECS 281",
+                              "2": "EECS 370"
+                          },
+                          "GRAD"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 489",
+                  "median_grade": "A-",
+                  "workload": "heavy",
+                  "name": "Computer Networks",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          {
+                              "1": "EECS 281",
+                              "2": "EECS 370"
+                          },
+                          "GRAD"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 483",
+                  "median_grade": "A",
+                  "workload": "heavy",
+                  "name": "Compiler Construction",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          {
+                              "1": "EECS 281",
+                              "2": "EECS 370"
+                          },
+                          "GRAD"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 484",
+                  "median_grade": "A-",
+                  "workload": "moderate",
+                  "name": "Database Management Systems",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "EECS 281",
+                          "EECS 403",
+                          "GRAD"
+                      ]
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Intelligent Systems",
+          "info": {
+              "requirements": [
+                  "EECS 442",
+                  "EECS 445",
+                  "EECS 467",
+                  "EECS 486",
+                  "EECS 492"
+              ]
+          },
+          "course_details" : [
+              {
+                  "course": "EECS 445",
+                  "median_grade": "A-",
+                  "workload": "heavy",
+                  "name": "Introduction to Machine Learning",
+                  "description": "",
+                  "prereqs": {
+                      "1": "EECS 281",
+                      "2": [
+                              "MATH 214",
+                              "MATH 217",
+                              "MATH 296",
+                              "MATH 417",
+                              "MATH 419",
+                              "ROB 101"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 442",
+                  "median_grade": "A",
+                  "workload": "moderate",
+                  "name": "Computer Vision",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "GRAD",
+                          {
+                              "1": "EECS 281",
+                              "2": [
+                                  "MATH 214",
+                                  "MATH 217",
+                                  "MATH 296",
+                                  "MATH 417",
+                                  "MATH 419",
+                                  "ROB 101"
+                              ]
+                          }
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 486",
+                  "median_grade": "A-",
+                  "workload": "easy",
+                  "name": "Information Retrieval and Web Search",
+                  "description": "",
+                  "prereqs": {
+                      "1": "EECS 281"
+                  }
+              },
+              {
+                  "course": "EECS 467",
+                  "median_grade": "A",
+                  "workload": "extremely heavy",
+                  "name": "Autonomous Robotics Design Experience",
+                  "description": "",
+                  "prereqs": {
+                      "1": "EECS 281",
+                      "2": [
+                          "MATH 214",
+                          "MATH 217",
+                          "MATH 296",
+                          "MATH 417",
+                          "MATH 419",
+                          "ROB 101"
+                      ],
+                      "3": [
+                          "EECS 367",
+                          "EECS 373"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 492",
+                  "median_grade": "B+",
+                  "workload": "moderate",
+                  "name": "Introduction to Artificial Intelligence",
+                  "description": "",
+                  "prereqs": {
+                      "1": "EECS 281"
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Software Development",
+          "info": {
+              "requirements": [
+                  "EECS 482",
+                  "EECS 484",
+                  "EECS 485",
+                  "EECS 494"
+              ]
+          },
+          "course_details" : [
+              {
+                  "course": "EECS 482",
+                  "median_grade": "B+",
+                  "workload": "extremely heavy",
+                  "name": "Introduction to Operating Systems",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          {
+                              "1": "EECS 281",
+                              "2": "EECS 370"
+                          },
+                          "GRAD"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 485",
+                  "median_grade": "B+",
+                  "workload": "moderate",
+                  "name": "Software Engineering",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "EECS 281",
+                          "GRAD"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 494",
+                  "median_grade": "A",
+                  "workload": "extremely heavy",
+                  "name": "Computer Game Design and Development",
+                  "description": "",
+                  "prereqs": {
+                      "1": "EECS 281"
+                  }
+              },
+              {
+                  "course": "EECS 484",
+                  "median_grade": "B+",
+                  "workload": "moderate",
+                  "name": "Database Management Systems",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "EECS 281",
+                          "EECS 403",
+                          "GRAD"
+                      ]
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Theory of Computation",
+          "info": {
+              "requirements": [
+                  "EECS 475",
+                  "EECS 477",
+                  "EECS 490"
+              ]
+          },
+          "course_details" : [
+              {
+                  "course": "EECS 475",
+                  "median_grade": "B+",
+                  "workload": "moderate",
+                  "name": "Introduction to Cryptography",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "EECS 203",
+                          "MATH 312",
+                          "MATH 412"
+                      ],
+                      "2": [
+                          "EECS 180",
+                          "EECS 183",
+                          "EECS 280"
+                      ],
+                      "3": "EECS 376"
+                  }
+              },
+              {
+                  "course": "EECS 477",
+                  "median_grade": "B+",
+                  "workload": "moderate",
+                  "name": "Introduction to Algorithms",
+                  "description": "",
+                  "prereqs": {
+                      "1": "EECS 281",
+                      "2": "EECS 376"
+                  }
+              },
+              {
+                  "course": "EECS 490",
+                  "median_grade": "A-",
+                  "workload": "moderate",
+                  "name": "Programming Language",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "EECS 281",
+                          "GRAD"
+                      ]
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Web Technology and Applications",
+          "info": {
+              "requirements": [
+                  "EECS 285",
+                  "EECS 388",
+                  "EECS 485",
+                  "EECS 493",
+                  "EECS 486"
+              ]
+          },
+          "course_details" : [
+              {
+                  "course": "EECS 485",
+                  "median_grade": "B+",
+                  "workload": "moderate",
+                  "name": "Web Systems",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "EECS 281",
+                          "GRAD"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 486",
+                  "median_grade": "A-",
+                  "workload": "easy",
+                  "name": "Information Retrieval and Web Search",
+                  "description": "",
+                  "prereqs": {
+                      "1": "EECS 281"
+                  }
+              },
+              {
+                  "course": "EECS 493",
+                  "median_grade": "A",
+                  "workload": "easy",
+                  "name": "User Interface Development",
+                  "description": "",
+                  "prereqs": {
+                      "1": [
+                          "EECS 281",
+                          "GRAD"
+                      ]
+                  }
+              },
+              {
+                  "course": "EECS 388",
+                  "median_grade": "A-",
+                  "workload": "moderate",
+                  "name": "Introduction to Computer Security",
+                  "description": "",
+                  "prereqs": {
+                      "1": "EECS 281"
+                  }
+              },
+              {
+                  "course": "EECS 285",
+                  "median_grade": "A",
+                  "workload": "moderate",
+                  "name": "Practical Programming in Java",
+                  "description": "",
+                  "prereqs": {
+                      "1": "EECS 280"
+                  }
+              }
+          ]
+      }
+  ]
+}

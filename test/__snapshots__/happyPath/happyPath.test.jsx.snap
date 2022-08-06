@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on load happy path Testing track overview retrieval 1`] = `
+Array [
+  <button
+    aria-expanded="false"
+    class="accordion-button collapsed"
+    type="button"
+  >
+    CS ENG
+  </button>,
+  <button
+    aria-expanded="false"
+    class="accordion-button collapsed"
+    type="button"
+  >
+    CS LSA
+  </button>,
+]
+`;
