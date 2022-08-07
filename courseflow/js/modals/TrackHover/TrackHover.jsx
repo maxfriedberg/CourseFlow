@@ -6,7 +6,7 @@ import {
     Popover,
 } from 'react-bootstrap'
 
-class TrackDetails extends React.Component {
+class TrackHover extends React.Component {
     constructor(props) {
         super(props);
         this.renderRequirements = this.renderRequirements.bind(this)
@@ -47,9 +47,9 @@ class TrackDetails extends React.Component {
     }
 
 }
-TrackDetails.propTypes = {
+TrackHover.propTypes = {
     school: PropTypes.string.isRequired,
     track: PropTypes.object.isRequired,
 }
 
-export default TrackDetails;
+export default TrackHover;

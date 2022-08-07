@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button, OverlayTrigger } from 'react-bootstrap'
-import TrackDetails from '../TrackDetails';
+import TrackHover from '../../../modals/TrackHover';
 
 class Track extends React.Component {
     constructor(props) {
@@ -15,7 +15,7 @@ class Track extends React.Component {
             <OverlayTrigger
                 placement="right"
                 delay={{show: 600, hide: 300}}
-                overlay={<TrackDetails school={school} track={track} />}
+                overlay={<TrackHover school={school} track={track} />}
             >
                 <Button className='my-1 w-100'
                         key={`${school}-${track.name}`}
