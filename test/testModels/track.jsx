@@ -1,5 +1,4 @@
 import React from 'react'
-import { act } from 'react-dom/test-utils'
 import userEvent from '@testing-library/user-event'
 import { render, waitFor } from '@testing-library/react'
 import { getTrackButton, getTrackPopover } from '../utils/getComponent'
@@ -8,12 +7,9 @@ import Track from '../../courseflow/js/components/Tracks/Track'
 const mockClick = jest.fn()
 
 const trackHoverTestModel = (school, track) => () => {
-  beforeAll(async () => {
+  beforeAll(() => {
     jest.useFakeTimers()
-
-    await act(async () => {
-      await render(<Track school={school} track={track} handleTrackSelection={mockClick}/>)
-    })
+    render(<Track school={school} track={track} handleTrackSelection={mockClick}/>)
   })
 
   afterAll(() => {

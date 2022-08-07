@@ -1,0 +1,69 @@
+{
+  "medianGradeData": [
+    {
+      "percentage": "10",
+      "barInfo": "M5.14 185v-54.49h30.87V185z",
+      "yCoord": "125.288"
+    },
+    {
+      "percentage": "31",
+      "barInfo": "M46.3 185V24.13h30.86V185z",
+      "yCoord": "18.908"
+    },
+    {
+      "percentage": "17",
+      "barInfo": "M87.45 185V98.86h30.87V185z",
+      "yCoord": "93.638"
+    },
+    {
+      "percentage": "15",
+      "barInfo": "M128.61 185v-80.43h30.86V185z",
+      "yCoord": "99.348"
+    },
+    {
+      "percentage": "12",
+      "barInfo": "M169.76 185v-62.27h30.87V185z",
+      "yCoord": "117.508"
+    },
+    {
+      "percentage": "4",
+      "barInfo": "M210.91 185v-21.28h30.87V185z",
+      "yCoord": "158.498"
+    },
+    {
+      "percentage": "3",
+      "barInfo": "M252.07 185v-15.57h30.86V185z",
+      "yCoord": "164.208"
+    },
+    {
+      "percentage": "4",
+      "barInfo": "M293.22 185v-20.24h30.87V185z",
+      "yCoord": "159.538"
+    },
+    {
+      "percentage": "2",
+      "barInfo": "M334.38 185v-7.78h30.86V185z",
+      "yCoord": "171.998"
+    },
+    {
+      "percentage": "<1",
+      "barInfo": "M375.53 185v-1.04h30.86V185z",
+      "yCoord": "178.738"
+    },
+    {
+      "percentage": "<1",
+      "barInfo": "M416.68 185v-3.63h30.87V185z",
+      "yCoord": "176.148"
+    },
+    {
+      "percentage": "0",
+      "barInfo": null,
+      "yCoord": "179.778"
+    },
+    {
+      "percentage": "1",
+      "barInfo": "M498.99 185v-5.71h30.87V185z",
+      "yCoord": "174.068"
+    }
+  ]
+}

@@ -18,14 +18,7 @@
                   "workload": "moderate",
                   "name": "Introduction to Logic Design",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "EECS 180",
-                          "EECS 183",
-                          "ENGR 101",
-                          "ENGR 151"
-                      ]
-                  }
+                  "prereqs": ["EECS 180 or 183 or ENGR 101 or 151; (C or better, No OP/F)"]
               },
               {
                   "course": "EECS 373",
@@ -33,17 +26,7 @@
                   "workload": "heavy",
                   "name": "Introduction to Embedded Systems Design",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "EECS 270",
-                          "CMPTRSC 270"
-                      ],
-                      "2": [
-                          "EECS 370",
-                          "CMPTRSC 370"
-                      ],
-                      "3": "Junior or above"
-                  }
+                  "prereqs": ["(EECS 270 or CMPTRSC 270) & (EECS 370 or CMPTRSC 370) and Junior or Above; (C or better, No OP/F)"]
               },
               {
                   "course": "EECS 427",
@@ -51,15 +34,7 @@
                   "workload": "extremely heavy",
                   "name": "Very Large Scale Integrated Design I",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          {
-                              "1": "EECS 270",
-                              "2": "EECS 312"
-                          },
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 270 and 312; (C or better; no OP/F) or Graduate Standing"]
               },
               {
                   "course": "EECS 470",
@@ -67,21 +42,7 @@
                   "workload": "extremely heavy",
                   "name": "Computer Architecture",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          {
-                              "1": [
-                                  "EECS 270",
-                                  "CMPTRSC 270"
-                              ],
-                              "2": [
-                                  "EECS 370",
-                                  "CMPTRSC 370"
-                              ]
-                          },
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["{[(EECS 270 or CMPTRSC 270) and (EECS 370 or CMPTRSC 370)] ; (C or better, No OP/F)} or Graduate Standing"]
               },
               {
                   "course": "EECS 478",
@@ -89,24 +50,7 @@
                   "workload": "moderate",
                   "name": "Logic Circuit Synthesis and Optimization",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          {
-                              "1": [
-                                  "EECS 203",
-                                  "EECS 303",
-                                  "CMPTRSC 203",
-                                  "CMPTRSC 303"
-                              ],
-                              "2": [
-                                  "EECS 270",
-                                  "CMPTRSC 270"
-                              ],
-                              "3": "SENIOR"
-                          },
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["[(EECS 203 or 303 or CMPTRSC 203 or 303) and (EECS 270 or CMPTRSC 270); C or better No OP/F, and Senior] or Graduate Standing"]
               }
           ]
       },
@@ -128,12 +72,7 @@
                   "workload": "heavy",
                   "name": "Introduction to Distributed Systems",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "EECS 482",
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 482; (C or better, No OP/F) or Graduate Standing in CSE"]
               },
               {
                   "course": "EECS 482",
@@ -141,15 +80,7 @@
                   "workload": "extremely heavy",
                   "name": "Introduction to Operating Systems",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          {
-                              "1": "EECS 281",
-                              "2": "EECS 370"
-                          },
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 281 and 370; (C or better, No OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors."]
               },
               {
                   "course": "EECS 489",
@@ -157,15 +88,7 @@
                   "workload": "heavy",
                   "name": "Computer Networks",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          {
-                              "1": "EECS 281",
-                              "2": "EECS 370"
-                          },
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["(EECS 281 and EECS 370); (C or better, No OP/F) or Graduate Standing in CSE"]
               },
               {
                   "course": "EECS 483",
@@ -173,15 +96,7 @@
                   "workload": "heavy",
                   "name": "Compiler Construction",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          {
-                              "1": "EECS 281",
-                              "2": "EECS 370"
-                          },
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 281 and 370; (C or better, No OP/F) or Graduate Standing. Enrollment in one minor elective allowed for Computer Science Minors."]
               },
               {
                   "course": "EECS 484",
@@ -189,13 +104,7 @@
                   "workload": "moderate",
                   "name": "Database Management Systems",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "EECS 281",
-                          "EECS 403",
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 281; (C or better, no OP/F) or 403; (B or better, no OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors."]
               }
           ]
       },
@@ -217,17 +126,7 @@
                   "workload": "heavy",
                   "name": "Introduction to Machine Learning",
                   "description": "",
-                  "prereqs": {
-                      "1": "EECS 281",
-                      "2": [
-                              "MATH 214",
-                              "MATH 217",
-                              "MATH 296",
-                              "MATH 417",
-                              "MATH 419",
-                              "ROB 101"
-                      ]
-                  }
+                  "prereqs": ["EECS 281 and (MATH 214 or 217 or 296 or 417 or 419 or ROB 101); (C or better; No OP/F)"]
               },
               {
                   "course": "EECS 442",
@@ -235,22 +134,7 @@
                   "workload": "moderate",
                   "name": "Computer Vision",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "GRAD",
-                          {
-                              "1": "EECS 281",
-                              "2": [
-                                  "MATH 214",
-                                  "MATH 217",
-                                  "MATH 296",
-                                  "MATH 417",
-                                  "MATH 419",
-                                  "ROB 101"
-                              ]
-                          }
-                      ]
-                  }
+                  "prereqs": ["[(EECS 281 and (MATH 214 or 217 or 296 or 417 or 419 or ROB 101)); (C or better, No OP/F)] or graduate standing"]
               },
               {
                   "course": "EECS 486",
@@ -258,9 +142,7 @@
                   "workload": "easy",
                   "name": "Information Retrieval and Web Search",
                   "description": "",
-                  "prereqs": {
-                      "1": "EECS 281"
-                  }
+                  "prereqs": ["EECS 281; (C or better, No OP/F)"]
               },
               {
                   "course": "EECS 467",
@@ -268,21 +150,7 @@
                   "workload": "extremely heavy",
                   "name": "Autonomous Robotics Design Experience",
                   "description": "",
-                  "prereqs": {
-                      "1": "EECS 281",
-                      "2": [
-                          "MATH 214",
-                          "MATH 217",
-                          "MATH 296",
-                          "MATH 417",
-                          "MATH 419",
-                          "ROB 101"
-                      ],
-                      "3": [
-                          "EECS 367",
-                          "EECS 373"
-                      ]
-                  }
+                  "prereqs": ["EECS 281 and (MATH 214 or 217 or 296 or 417 or 419 or ROB 101) and (EECS 367 or 373); (C or better, No OP/F)"]
               },
               {
                   "course": "EECS 492",
@@ -290,9 +158,7 @@
                   "workload": "moderate",
                   "name": "Introduction to Artificial Intelligence",
                   "description": "",
-                  "prereqs": {
-                      "1": "EECS 281"
-                  }
+                  "prereqs": ["EECS 281; (C or better, No OP/F). Enrollment in one minor elective allowed for Computer Science Minors."]
               }
           ]
       },
@@ -313,15 +179,7 @@
                   "workload": "extremely heavy",
                   "name": "Introduction to Operating Systems",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          {
-                              "1": "EECS 281",
-                              "2": "EECS 370"
-                          },
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 281 and 370; (C or better, No OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors."]
               },
               {
                   "course": "EECS 485",
@@ -329,12 +187,7 @@
                   "workload": "moderate",
                   "name": "Software Engineering",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "EECS 281",
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 281; (C or better, No OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors."]
               },
               {
                   "course": "EECS 494",
@@ -342,9 +195,7 @@
                   "workload": "extremely heavy",
                   "name": "Computer Game Design and Development",
                   "description": "",
-                  "prereqs": {
-                      "1": "EECS 281"
-                  }
+                  "prereqs": ["EECS 281; (C or better, No OP/F)"]
               },
               {
                   "course": "EECS 484",
@@ -352,13 +203,7 @@
                   "workload": "moderate",
                   "name": "Database Management Systems",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "EECS 281",
-                          "EECS 403",
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 281; (C or better, no OP/F) or 403; (B or better, no OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors."]
               }
           ]
       },
@@ -378,19 +223,7 @@
                   "workload": "moderate",
                   "name": "Introduction to Cryptography",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "EECS 203",
-                          "MATH 312",
-                          "MATH 412"
-                      ],
-                      "2": [
-                          "EECS 180",
-                          "EECS 183",
-                          "EECS 280"
-                      ],
-                      "3": "EECS 376"
-                  }
+                  "prereqs": ["(EECS 203 or MATH 312 or 412) and (EECS 180 or 183 or 280) and (EECS 376); (C or better, No OP/F)"]
               },
               {
                   "course": "EECS 477",
@@ -398,10 +231,7 @@
                   "workload": "moderate",
                   "name": "Introduction to Algorithms",
                   "description": "",
-                  "prereqs": {
-                      "1": "EECS 281",
-                      "2": "EECS 376"
-                  }
+                  "prereqs": ["EECS 281 & 376; (C or better, No OP/F)"]
               },
               {
                   "course": "EECS 490",
@@ -409,12 +239,7 @@
                   "workload": "moderate",
                   "name": "Programming Language",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "EECS 281",
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 281; (C or better, No OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors."]
               }
           ]
       },
@@ -436,12 +261,7 @@
                   "workload": "moderate",
                   "name": "Web Systems",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "EECS 281",
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 281; (C or better, No OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors."]
               },
               {
                   "course": "EECS 486",
@@ -449,9 +269,7 @@
                   "workload": "easy",
                   "name": "Information Retrieval and Web Search",
                   "description": "",
-                  "prereqs": {
-                      "1": "EECS 281"
-                  }
+                  "prereqs": ["EECS 281; (C or better, No OP/F)"]
               },
               {
                   "course": "EECS 493",
@@ -459,12 +277,7 @@
                   "workload": "easy",
                   "name": "User Interface Development",
                   "description": "",
-                  "prereqs": {
-                      "1": [
-                          "EECS 281",
-                          "GRAD"
-                      ]
-                  }
+                  "prereqs": ["EECS 281; (C or better, No OP/F) or Graduate Standing in CSE. Enrollment in one minor elective allowed for Computer Science Minors."]
               },
               {
                   "course": "EECS 388",
@@ -472,9 +285,7 @@
                   "workload": "moderate",
                   "name": "Introduction to Computer Security",
                   "description": "",
-                  "prereqs": {
-                      "1": "EECS 281"
-                  }
+                  "prereqs": ["EECS 280; (C or better; No OP/F)"]
               },
               {
                   "course": "EECS 285",
@@ -482,9 +293,7 @@
                   "workload": "moderate",
                   "name": "Practical Programming in Java",
                   "description": "",
-                  "prereqs": {
-                      "1": "EECS 280"
-                  }
+                  "prereqs": ["EECS 281; (C or better, No OP/F). Enrollment in one minor elective allowed for Computer Science Minors."]
               }
           ]
       }

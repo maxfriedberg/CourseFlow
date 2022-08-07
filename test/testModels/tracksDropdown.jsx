@@ -7,6 +7,7 @@ import CourseFlow from '../../courseflow/js/CourseFlow'
 import getApiResponse from '../__mocks__/axiosMock'
 import { getTrackButton } from '../utils/getComponent'
 
+require("dotenv").config('../../../.env')
 jest.mock('axios')
 const dropdownTestModel = (tracks) => () => {
   const testingTracks = []
@@ -15,7 +16,7 @@ const dropdownTestModel = (tracks) => () => {
   }
   test('render', async () => {
     await act(async () => {
-      render(<TracksDropdown tracks={testingTracks} handleTrackSelection={jest.fn()}/>)
+      await render(<TracksDropdown tracks={testingTracks} handleTrackSelection={jest.fn()}/>)
     })
     if (testingTracks.length > 1) {
       expect(screen.findByText(/.*CS\sENG.*/)).toMatchSnapshot()
@@ -40,11 +41,10 @@ const dropdownOnClickTestModel = (tracks) => () => {
         data: getApiResponse(url),
         status: 200,
       }) :
-      Promise.reject(new Error(`Error: ${url} not valid`))
+      Promise.reject(new Error(`Error: URL ${url} not valid`))
     )
-    await act(async () => {
-      render(<CourseFlow url='/api'/>)
-    })
+    render(<CourseFlow />)
+    
   })
 
   for (const schoolObj of testingTracks) {
@@ -57,11 +57,9 @@ const dropdownOnClickTestModel = (tracks) => () => {
         expect(trackButton).toMatchSnapshot()
         expect(noTrackSelectedHeader).toMatchSnapshot()
 
-        await act( async () => {
-          fireEvent.click(trackButton)
-        })
+        fireEvent.click(trackButton)
 
-        const currentTrackHeader = await screen.findByText(new RegExp(`.*Current\\strack:\\s${schoolObj.school.toUpperCase()}\\s${track.name}.*`))
+        const currentTrackHeader = await screen.findByText(new RegExp(`.*Current\\strack:.*${track.name}.*`))
         expect(currentTrackHeader).not.toBeNull()
         expect(currentTrackHeader).toMatchSnapshot()
       })

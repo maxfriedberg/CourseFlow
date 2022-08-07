@@ -1,10 +1,21 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { act } from 'react-dom/test-utils'
+import axios from 'axios'
 import { CourseDetails } from '../../../courseflow/js/components/CourseDetails'
+import getApiResponse from '../../__mocks__/axiosMock'
 
+require("dotenv").config('../../../.env')
+jest.mock('axios')
 const courseDetailsBodyTestModel = (course) => () => {
   beforeEach(async () => {
+    axios.get.mockImplementation(url => url.includes('/api') ? 
+      Promise.resolve({
+        data: getApiResponse(url),
+        status: 200,
+      }) :
+      Promise.reject(new Error(`Error: URL ${url} not valid`))
+    )
     await act(async () => {
       render(<CourseDetails.Body course={course} />)
     })

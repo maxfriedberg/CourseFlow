@@ -5,7 +5,7 @@ describe('Testing CourseDetails component', () => {
   describe('ENG', () => {
     tracks.eng.ENG.forEach((track) => {
       describe(track.name, () => {
-        track.course_details.forEach((course) => {
+        track.course_details.forEach((course, idx) => {
           describe(course.course, courseDetailsTestModel(course))
         })
       })

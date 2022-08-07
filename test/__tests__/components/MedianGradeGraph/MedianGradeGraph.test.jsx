@@ -1,11 +1,12 @@
-import { gradeDistributionData } from "../../../../courseflow/static/course_info";
+import tracks from '../../../__mocks__/mockData/tracks'
 import { medianGradeGraphTestModel } from '../../../testModels'
 
 describe('Testing MedianGradeGraph component', () => {
-  for(const [department, courseData] of Object.entries(gradeDistributionData)) {
-    for (const [courseNum, data] of Object.entries(courseData)) {
-      const courseName = `${department} ${courseNum}`
-      describe(courseName, medianGradeGraphTestModel(courseName, data))
-    }
+  for (const [school, schoolTracks] of Object.entries(tracks.all)) {
+    schoolTracks.forEach((track) => {
+      track.course_details.forEach((courseObj) => {
+        describe(`${school} ${track.name} ${courseObj.course}`, medianGradeGraphTestModel(courseObj.course))
+      })
+    })
   }
 })

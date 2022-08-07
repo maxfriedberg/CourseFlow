@@ -5,6 +5,7 @@ import axios from 'axios'
 import getApiResponse from '../../__mocks__/axiosMock'
 import CourseFlow from '../../../courseflow/js/CourseFlow'
 
+require("dotenv").config('../../../.env')
 jest.mock('axios')
 
 describe('Testing on load happy path', () => {
@@ -17,11 +18,11 @@ describe('Testing on load happy path', () => {
           status: 200,
         })
       }
-      return Promise.reject(new Error(`Error: ${url} not valid`))
+      return Promise.reject(new Error(`Error: URL '${url}' not valid`))
     })
 
     await act(async () => {
-      render(<CourseFlow url='/api' />);
+      render(<CourseFlow />);
     })
     expect(screen.getAllByText(/CS/)).toMatchSnapshot()
     expect(screen.getAllByText(/CS/)).not.toBeNull()

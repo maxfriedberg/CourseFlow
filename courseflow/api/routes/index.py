@@ -12,7 +12,8 @@ def handle_api_query():
 @courseflow.app.route('/api/tracks/<school>')
 def handle_track_query(school):
     track = flask.request.args.get('track', None)
-
+    if not track:
+        return flask.jsonify(**get_tracks_by_school())
     return flask.jsonify(**get_courses_by_track(school, track))
 
 @courseflow.app.route('/api/courses')

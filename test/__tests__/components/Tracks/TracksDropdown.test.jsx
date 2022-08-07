@@ -4,7 +4,7 @@ import { dropdownTestModel, dropdownOnClickTestModel } from '../../../testModels
 describe('Testing TracksDropdown component for expected data', () => {
   describe('ENG', dropdownTestModel(tracks.eng))
   describe('LSA', dropdownTestModel(tracks.lsa))
-  describe('ENG and LSA', dropdownOnClickTestModel(tracks.all))
+  describe('ENG and LSA', dropdownTestModel(tracks.all))
 })
 
 describe('Testing TracksDropdown onClick', () => {
